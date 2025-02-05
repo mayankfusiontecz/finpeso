@@ -1,6 +1,6 @@
 import Cards from "@/components/cards/Cards";
 import Footer from "@/components/footer/Footer";
-import HeroSection from "@/components/homepage/HeroSection";
+import HeroSection from "@/components/homepage/home/HeroSection";
 import ImageCard from "@/components/imagcards/ImageCard";
 import ImageText from "@/components/imageText/ImageText";
 import ImageText1 from "@/components/imagetext1/ImageText1";
@@ -33,7 +33,9 @@ export default function Home() {
         content1={homeContent.phonetextbg.content1}
         content2={homeContent.phonetextbg.content2}
       />
-      <ImageWithSlider/>
+      <ImageWithSlider
+        slides={homeContent.slides}
+      />
       <WhyItMatters
         heading={homeContent.whyitmatters.heading}
         items={homeContent.whyitmatters.items}

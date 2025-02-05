@@ -1,13 +1,13 @@
 "use client"
 import { useState } from "react";
 import style from './HeroSection.module.css'
-import Navbar from "../navbar/Navbar";
 import fire from '@/public/assets/icons/home/firstcomp2.png'
 import mobile from '@/public/assets/images/home/firstcomp1.png'
 import arrow from '@/public/assets/icons/home/firstcomp1.png'
+import Navbar from "@/components/navbar/Navbar";
 
 export default function HeroSection(){
-    const [activePath , setActivePath] = useState("/");;
+    const [activePath , setActivePath] = useState("/services");;
 
     return(
             <div className={style['backgroundImage']}>

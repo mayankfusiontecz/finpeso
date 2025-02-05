@@ -8,9 +8,10 @@ export default function WhyItMatters(props) {
                         return (
                             <div
                                 key={index}
-                                className={`w-full py-10 p-8 rounded-xl gap-[2rem] text-[#161919] bg-[#F2FEFE] hover:bg-[#163572] hover:text-white`}
+                                className={`group w-full py-10 p-8 rounded-xl gap-[2rem] text-[#161919] bg-[#F2FEFE] hover:bg-[#163572] hover:text-white`}
                             >
-                                <img src={item.img} alt="" className='mb-5 hover:text-[#2CC8F3]' />
+                                <img src={item.img} alt="" className='mb-5 group-hover:hidden' />
+                                <img src={item.img1} alt="" className='mb-5 hidden group-hover:block' />
                                 <p className='mb-2 font-semibold'>{item.heading}</p>
                                 <p className='w-[90%]'>{item.content}</p>
                             </div>

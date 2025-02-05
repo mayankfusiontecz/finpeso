@@ -1,6 +1,6 @@
 import Cards from "@/components/cards/Cards";
 import Footer from "@/components/footer/Footer";
-import HeroSection from "@/components/homepage/HeroSection";
+import HeroSection from "@/components/homepage/services/HeroSection";
 import ImageCard from "@/components/imagcards/ImageCard";
 import ImageText from "@/components/imageText/ImageText";
 import ImageText1 from "@/components/imagetext1/ImageText1";
@@ -39,7 +39,8 @@ export default function Services() {
                 card6={ServicesContent.imageCard.card6}
             />
             <ImageWithSlider
-                heading={ServicesContent.imageslider.heading}
+                heading="HOW FINPESO HELPS YOU SAVE MONEY"
+                slides={ServicesContent.slides}
             />
             <PersonText
                 heading={ServicesContent.persontext.heading}

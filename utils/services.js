@@ -1,5 +1,6 @@
 import secondcomp1 from '@/public/assets/images/services/secondcomp1.png'
 import sixthcomp1 from '@/public/assets/icons/home/sixthcomp1.png'
+import sixthcomp2 from '@/public/assets/icons/home/sixthcomp2.png'
 import thirdcomp4 from '@/public/assets/images/home/thirdcomp4.png'
 import card1 from '@/public/assets/icons/home/eightcomp1.png'
 import card2 from '@/public/assets/icons/home/eightcomp2.png'
@@ -17,21 +18,25 @@ export const ServicesContent = {
         items: [
             {
                 img: sixthcomp1.src,
+                img1: sixthcomp2.src,
                 heading: "Easy Setup:",
                 content: "Get started within minutes and have all your finances in one place.",
             },
             {
                 img: sixthcomp1.src,
+                img1: sixthcomp2.src,
                 heading: "Clear Insights: ",
                 content: "Understand your financial situation at a glance with detailed reports and AI-powered recommendations.",
             },
             {
                 img: sixthcomp1.src,
+                img1: sixthcomp2.src,
                 heading: "Save More: ",
                 content: "Identify unnecessary spending, optimize your budget, and reach your savings goals faster.",
             },
             {
                 img: sixthcomp1.src,
+                img1: sixthcomp2.src,
                 heading: "Smart Financial Decisions: ",
                 content: "Finpeso provides logical, fact-based insights to help you make the best choices for your future.",
             },
@@ -101,9 +106,24 @@ export const ServicesContent = {
             li2: "Earn rewards and bonuses for meeting savings goals and making smart financial decisions.",
         }
     },
-    imageslider:{
-        heading:"HOW FINPESO HELPS YOU SAVE MONEY"
-    },
+    slides:[
+        {
+            heading:"Identify Spending Patterns:",
+            li1:"Spot unnecessary expenses and redirect that money toward savings.",
+        },
+        {
+            heading:"Real-Time Alerts:",
+            li1:"Stay updated on your spending to avoid overspending or missed bills.",
+        },
+        {
+            heading:"Actionable Tips:",
+            li1:"Use AI-powered suggestions to tweak your budget and optimize your savings.",
+        },
+        {
+            heading:"Goal-Focused Saving:",
+            li1:"Break down your big financial goals into achievable milestones and track your progress easily.",
+        }
+    ],
     persontext:{
         heading:"GET STARTED WITH FINPESO TODAY",
         content:"With Finpeso, managing your finances is no longer a chore. In just minutes, you can set up your account, connect your bank, and start seeing the benefits of clear, actionable financial insights. Whether it’s tracking expenses, setting budgets, or reaching savings goals, Finpeso has you covered. </br>Start using Finpeso today and take the first step toward a smarter, more secure financial future."

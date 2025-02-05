@@ -8,6 +8,7 @@ import thirdicon3 from '@/public/assets/icons/home/thirdcomp3.png'
 import thirdcomp4 from '@/public/assets/images/home/thirdcomp4.png'
 import thirdcomp5 from '@/public/assets/images/home/thirdcomp5.png'
 import sixthcomp1 from '@/public/assets/icons/home/sixthcomp1.png'
+import sixthcomp2 from '@/public/assets/icons/home/sixthcomp2.png'
 
 
 export const homeContent={
@@ -73,21 +74,46 @@ export const homeContent={
         content1:"Simplify Your Financial Understanding",
         content2:"Finpeso brings your finances to life with easy-to-read charts and graphs. No more scrolling through endless lists of transactions — now you can see everything at a glance."
     },
+    slides:[
+        {
+            heading:"Spending Trends",
+            li1:"View monthly or yearly spending trends categorized by essentials, leisure, bills, and more.",
+            li2:"Identify where you’re overspending and adjust with ease."
+        },
+        {
+            heading:"Income vs. Expenses",
+            li1:"Compare your income to your expenses through a simple bar or pie chart.",
+            li2:"Instantly see if you’re saving enough or need to adjust your budget."
+        },
+        {
+            heading:"Savings Goals Progress",
+            li1:"Track how close you are to achieving your goals with progress bars and real-time updates.",
+            li2:"Get reminders and celebrate milestones as you hit them!"
+        },
+        {
+            heading:"Credit Utilization",
+            li1:"See how much credit you’ve used versus your available credit limit.",
+            li2:"Stay informed and maintain a healthy credit score with visual data."
+        }
+    ],
     whyitmatters :{
         heading:"WHY IT MATTERS",
     items:[
         {
             img:sixthcomp1.src,
+            img1:sixthcomp2.src,
             heading:"Clarity at a Glance: ",
             content:"Charts make it easier to grasp your financial health without diving into complex numbers",
         },
         {
             img:sixthcomp1.src,
+            img1:sixthcomp2.src,
             heading:"Actionable Insights: ",
             content:"Understand key areas to improve your finances with just a glance.",
         },
         {
             img:sixthcomp1.src,
+            img1:sixthcomp2.src,
             heading:"Better Decision-Making: ",
             content:"With clear data visuals, you’re always informed and ready to take action.",
         },
