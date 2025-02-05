@@ -54,22 +54,22 @@ export default function ImageCard(props) {
                         <li>{props.card4.span2 && (<span className='font-semibold'>{props.card4.span2}</span>)}{props.card4.li2}</li>
                     </ul>
                 </div>
-                <div className='w-[40%] bg-[#F2FEFE] rounded-xl p-8'>
+                <div className='w-[40%] bg-[#F2FEFE] rounded-xl p-8 relative'>
                     <img src={props.card5.img} alt=''/>
                     <p className='text-[2rem] text-black font-bold mt-8 mb-4'>{props.card5.heading}</p>
                     <ul className='w-[90%] text-[#403F3F] text-[1.2rem] list-disc pl-5'>
                         <li>{props.card5.span1 && (<span className='font-semibold'>{props.card5.span1}</span>)}{props.card5.li1}</li>
                         <li>{props.card5.span2 && (<span className='font-semibold'>{props.card5.span2}</span>)}{props.card5.li2}</li>
                     </ul>
-                    <img src={props.card5.bottomimg} alt='' className='mb-[-2rem] ml-auto bottom-0 right-0 w-[150px] h-auto'/>
+                    <img src={props.card5.bottomimg} alt='' className='absolute bottom-0 right-0 w-[150px] h-auto'/>
                 </div>
-                <div className='w-[40%] bg-[#71D5EC] rounded-xl p-8 pb-0 relative'>
+                <div className='w-[40%] bg-[#71D5EC] rounded-xl p-8 pb-0'>
                     <p className='text-[2rem] text-black font-bold mt-8 mb-4'>{props.card6.heading}</p>
                     <ul className='w-[90%] text-[#403F3F] text-[1.2rem] list-disc pl-5'>
                         <li>{props.card6.span1 && (<span className='font-semibold'>{props.card6.span1}</span>)}{props.card6.li1}</li>
                         <li>{props.card6.span2 && (<span className='font-semibold'>{props.card6.span2}</span>)}{props.card6.li2}</li>
                     </ul>
-                    <img src={props.card6.img} alt='' className='bottom-0 absolute'/>
+                    <img src={props.card6.img} alt='' className='bottom-0 w-[20vw] mt-[2rem]'/>
                 </div>
             </div>
         </div>
