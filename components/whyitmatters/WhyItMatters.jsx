@@ -1,8 +1,19 @@
+"use client"
+import { useEffect } from "react"
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 export default function WhyItMatters(props) {
+    useEffect(()=>{
+        AOS.init({
+            duration:800,
+            once:false,
+        })
+    },[])
     return (
         <div className='flex flex-col justify-center items-center px-12'>
             <p className='text-[#172B85] text-[2.2rem] font-bold'>{props.heading}</p>
-            <div className='flex gap-8 w-full p-8 justify-items-center'>
+            <div className='flex gap-8 w-full p-8 justify-items-center' data-aos="flip-down">
                 {
                     props.items.map((item, index) => {
                         return (

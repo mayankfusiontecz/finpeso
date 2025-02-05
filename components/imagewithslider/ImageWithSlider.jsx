@@ -1,5 +1,8 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { motion } from "framer-motion";
 import fifthcomp1 from "@/public/assets/images/home/fifthcomp1.png";
 
@@ -28,12 +31,19 @@ export default function ImageWithSlider(props) {
     }
   }, [activeIndex]);
 
+  useEffect(()=>{
+    AOS.init({
+        duration:800,
+        once:false,
+    })
+},[])
+
   return (
     <div className="flex flex-col justify-center items-center p-5">
       <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">{props.heading}</p>
       <div className="flex">
         {/* Left section with cards */}
-        <div className="flex flex-col justify-center gap-5 ml-[5rem] relative">
+        <div className="flex flex-col justify-center gap-5 ml-[5rem] relative"  data-aos="zoom-out">
           {props.slides.map((item, index) => (
             <div
               key={index}
@@ -63,7 +73,7 @@ export default function ImageWithSlider(props) {
         </div>
 
         {/* Right section with image */}
-        <img src={fifthcomp1.src} alt="fifthcomp" className="ml-5" />
+        <img src={fifthcomp1.src} alt="fifthcomp" className="ml-5"  data-aos="zoom-out-up"/>
       </div>
     </div>
   );
