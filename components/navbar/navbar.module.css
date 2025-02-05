@@ -1,0 +1,23 @@
+.navLink {
+    color: #EAF9FF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navActive {
+    color: #113471;
+    font-weight: 700;
+}
+
+.dropdownLink{
+    padding: 0.5rem 1rem;
+    width: auto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #061e42;
+}
+.dropdownLink:hover{
+    background-color: #00A3F7;
+    border-radius: 3px;
+    color:#EAF9FF;
+}
