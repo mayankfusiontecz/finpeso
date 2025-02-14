@@ -1,3 +1,4 @@
+"use client"
 import { PiPhoneCallBold } from "react-icons/pi"
 import { MdOutlineFax } from "react-icons/md";
 import { LiaEnvelopeOpenTextSolid } from "react-icons/lia";
