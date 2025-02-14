@@ -24,7 +24,9 @@ export default function OurLeadership(){
                             className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300 
                         hover:bg-[#E6F0FD] hover:before:absolute hover:before:right-0 hover:before:bottom-0 hover:before:w-[10px] hover:before:h-full hover:before:bg-[#172B85] hover:before:rounded-br-2xl hover:before:rounded-tr-lg
                         hover:after:absolute hover:after:right-0 hover:after:bottom-0 hover:after:h-[10px] hover:after:w-full hover:after:bg-[#172B85] hover:after:rounded-br-2xl hover:after:rounded-bl-lg"
-                            style={{ boxShadow: '9px 13px 36.3px 8px rgba(0, 0, 0, 0.15)' }}>
+                            style={{ boxShadow: '9px 13px 36.3px 8px rgba(0, 0, 0, 0.15)' }}
+                                 data-aos="zoom-in"
+                            >
                             <p className="text-[#172B85] text-[1.5rem] font-bold mb-2">{item.heading}</p>
                             <p className="text-[#676666] mb-4">{item.designation}</p>
                             <p className="text-[#676666]">{item.content}</p>

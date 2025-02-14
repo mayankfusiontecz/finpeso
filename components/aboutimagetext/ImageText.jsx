@@ -1,6 +1,17 @@
+"use client"
+import { useEffect } from "react"
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import secondcomp1 from '@/public/assets/images/about/secondcomp1.png'
 
 export default function ImageText(){
+    useEffect(()=>{
+            AOS.init({
+                duration:800,
+                once:false,
+            })
+        },[])
     return(
         <div className='p-12 flex justify-center gap-[5rem]'>
             <img src={secondcomp1.src} alt='image'  data-aos="fade-down-right"/>
