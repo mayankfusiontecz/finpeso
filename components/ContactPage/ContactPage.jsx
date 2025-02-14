@@ -1,10 +1,12 @@
 import { PiPhoneCallBold } from "react-icons/pi"
 import { MdOutlineFax } from "react-icons/md";
 import { LiaEnvelopeOpenTextSolid } from "react-icons/lia";
-import Map from "../Map/Map";
+// import Map from "../Map/Map";
 import 'leaflet/dist/leaflet.css';
+import dynamic from "next/dynamic";
 
 
+const Map = dynamic(() => import('../Map/Map'), { ssr: false });
 
 
 export default function ContactPage() {
