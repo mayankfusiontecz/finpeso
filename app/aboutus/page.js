@@ -11,7 +11,7 @@ export default function Aboutus(){
             <HeroSection
                 img={aboutus.src}
                 heading={"Making Money Management Smart & Simple"}
-                path="aboutus"
+                path="/aboutus"
             />
             <ImageText/>
             <TextImage/>

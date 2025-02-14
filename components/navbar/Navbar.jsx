@@ -7,8 +7,6 @@ import { useState, useEffect } from "react";
 import WhiteMenu from '@/public/assets/icons/menu.svg'
 
 export default function Navbar({activePath,setActivePath}) {
-
-    // const [activePath, setActivePath] = useState("/");
     const [showDropdown, setShowDropdown] = useState(false);
     const [isDrawerOpen,setDrawerOpen] = useState(false)
 
