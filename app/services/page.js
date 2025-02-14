@@ -14,7 +14,7 @@ import { ServicesContent } from "@/utils/services";
 export default function Services() {
     return (
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 overflow-hidden">
             <HeroSection />
             <ImageText
                 img={ServicesContent.imageText.img}

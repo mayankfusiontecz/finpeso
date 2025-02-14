@@ -44,10 +44,10 @@ export default function Navbar({activePath,setActivePath}) {
     return (
         <nav className="flex w-full justify-between items-center py-[1rem] px-[2.6rem] max-md:px-[1rem]">
             <Link href="/" onClick={() => handleLinkClick("/")}
-                className={`${style.navLink} ${activePath === "/" ? style.navActive : ''}`}>
+                className={style.navLink}>
                 <Image src={logo} alt="company-logo" className="w-[150px] max-md:w-[100px]" />
             </Link>
-            <div className="flex gap-[2rem] max-md:hidden">
+            <div className="flex gap-[3rem] max-md:hidden">
                     <Link href="/" onClick={() => handleLinkClick("/")}
                         className={`${style.navLink} ${activePath === "/" ? style.navActive : ''}`}
                     >Home</Link>

@@ -19,8 +19,8 @@ export default function ImageCard(props) {
     return (
         <div className='flex flex-col justify-center gap-8 items-center'>
             <p className='text-[#172B85] mb-10 text-[2.2rem] font-bold'>{props.heading}</p>
-            <div className='flex justify-between gap-8 bg-[#F2FEFE] px-[2rem] w-[90%]'>
-                <div className='flex relative'  data-aos="fade-up-right">
+            <div className='flex justify-between gap-0 bg-[#F2FEFE] px-[2rem] w-[90%]'>
+                <div className='flex relative ml-12'  data-aos="fade-up-right">
                     <img src={thirdcomp1.src} alt='Mobile' />
                     <img src={thirdcomp2.src} alt='Mobile' className='ml-[-19%] mt-[10%] h-[85%]' />
                 </div>
