@@ -16,7 +16,7 @@ export default function OurLeadership(){
     return(
         <div className="flex flex-col items-center justify-center">
             <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">MEET OUT LEADERS</p>
-            <div className="flex p-8 px-[15rem] justify-between gap-8">
+            <div className="flex p-8 px-[15rem] justify-between gap-[8rem]">
                 {
                     items.map((item,index)=>{
                         return(
@@ -37,7 +37,7 @@ export default function OurLeadership(){
                 }
             </div>
             <p className="text-[1.5rem] text-[#172B85] font-bold mt-12">SMARTER FINANCES, BETTER DECISIONS</p>
-            <p className="text-[1.5rem] text-[#403F3F] font-bold">Let’s make managing your money stress-free and productive, together!</p>
+            <p className="text-[1.5rem] text-[#403F3F] font-bold mb-12">Let’s make managing your money stress-free and productive, together!</p>
         </div>
     )
 }

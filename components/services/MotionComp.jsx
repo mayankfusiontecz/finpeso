@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaLightbulb, FaPiggyBank } from "react-icons/fa";
 import { RiSearch2Fill } from "react-icons/ri";
 import { SlNote } from "react-icons/sl";
+import { SiHomeassistantcommunitystore } from "react-icons/si";
 import motioncomp1 from '@/public/assets/images/services/motioncomp1.png'
 import motioncomp2 from '@/public/assets/images/services/motioncomp2.png'
+import { PiNetworkXFill } from "react-icons/pi";
 
 const features = [
     {
@@ -22,13 +23,13 @@ const features = [
     },
     {
         id: 3,
-        icon: <FaLightbulb />,
+        icon: <PiNetworkXFill />,
         title: "Actionable Tips",
         description: "Use AI-powered suggestions to tweak your budget and optimize your savings.",
     },
     {
         id: 4,
-        icon: <FaPiggyBank />,
+        icon: <SiHomeassistantcommunitystore />,
         title: "Goal-Focused Saving",
         description: "Break down your big financial goals into achievable milestones and track your progress easily.",
     },
@@ -47,7 +48,7 @@ export default function MotionComp() {
                             key={feature.id}
                             onMouseEnter={() => setHoveredId(feature.id)}
                             onMouseLeave={() => setHoveredId(null)}
-                            className={`bg-white rounded-lg shadow-md border cursor-pointer overflow-hidden transition-all`}
+                            className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all`}
                             animate={{ height: hoveredId === feature.id ? "auto" : "80px" }}
                         >
                             <div className="flex items-center gap-3 p-8">

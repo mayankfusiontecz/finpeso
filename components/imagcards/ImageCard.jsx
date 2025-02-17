@@ -72,7 +72,7 @@ export default function ImageCard(props) {
                         <li>{props.card5.span1 && (<span className='font-semibold'>{props.card5.span1}</span>)}{props.card5.li1}</li>
                         <li>{props.card5.span2 && (<span className='font-semibold'>{props.card5.span2}</span>)}{props.card5.li2}</li>
                     </ul>
-                    <img src={props.card5.bottomimg} alt='' className='absolute bottom-0 right-0 w-[150px] h-auto'/>
+                    <img src={props.card5.bottomimg} alt='' className='absolute bottom-0 right-0 w-[250px] h-auto'/>
                 </div>
                 <div className='w-[40%] bg-[#71D5EC] rounded-xl p-8 pb-0' data-aos="flip-left">
                     <p className='text-[2rem] text-black font-bold mt-8 mb-4'>{props.card6.heading}</p>

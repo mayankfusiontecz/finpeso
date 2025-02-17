@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 export default function Accordion(props) {
-    const [openAccordion, setOpenAccordion] = useState(null);
+    const [openAccordion, setOpenAccordion] = useState(0);
 
     const handleAccordionToggle = (id) => {
         setOpenAccordion(prevState => (prevState === id ? null : id));

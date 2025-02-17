@@ -2,6 +2,7 @@
     color: #EAF9FF;
     text-decoration: none;
     transition: color 0.3s ease;
+    font-size: 1.2rem;
 }
 
 .navActive {

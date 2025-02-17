@@ -15,7 +15,7 @@ import MotionComp from "@/components/services/MotionComp";
 export default function Services() {
     return (
 
-        <div className="flex flex-col gap-8 overflow-hidden">
+        <div className="flex flex-col gap-[2rem] overflow-hidden">
             <HeroSection />
             <TextImage/>
             <WhyItMatters

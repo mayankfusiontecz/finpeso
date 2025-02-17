@@ -40,10 +40,10 @@ export default function Navbar({activePath,setActivePath}) {
     }, []);
 
     return (
-        <nav className="flex w-full justify-between items-center py-[1rem] px-[2.6rem] max-md:px-[1rem]">
+        <nav className="flex w-full justify-between items-center py-[2rem] px-[2.6rem] max-md:px-[1rem]">
             <Link href="/" onClick={() => handleLinkClick("/")}
                 className={style.navLink}>
-                <Image src={logo} alt="company-logo" className="w-[150px] max-md:w-[100px]" />
+                <Image src={logo} alt="company-logo" className="w-[200px] max-md:w-[100px]" />
             </Link>
             <div className="flex gap-[3rem] max-md:hidden">
                     <Link href="/" onClick={() => handleLinkClick("/")}
@@ -56,9 +56,12 @@ export default function Navbar({activePath,setActivePath}) {
                         className={`${style.navLink} ${activePath === "/services" ? style.navActive : ''}`}
                     >Services</Link>
             </div>
-            <button className="bg-[#fff] text-[#113471] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden">
+            <div>
+
+            <button className={`${activePath === "/contact" ? "bg-[#113471] text-white px-[1.5rem] py-[0.5rem] rounded-3xl font-bold border-2 border-white" : "bg-[#fff] text-[#113471] text-[1.2rem] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden"}`}>
                 <Link href="/contact">Contact</Link>
             </button>
+            </div>
             <img src={WhiteMenu.src} className="hidden max-md:flex text-[#fff]" onClick={toggleDrawer} alt="Menu"/>
             {isDrawerOpen && (
                 <>

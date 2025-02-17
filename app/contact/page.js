@@ -9,7 +9,7 @@ export default function Contact(){
             <HeroSection
                 img={contact.src}
                 heading={"CONTACT US"}
-                path={"contact"}
+                path={"/contact"}
             />
             <ContactPage/>
             <Footer/>
