@@ -32,11 +32,6 @@ export default function Services() {
                 heading={ServicesContent.imageCard.heading}
                 accordionData={ServicesContent.imageCard.card}
             />
-            <Cards
-                heading={ServicesContent.cards.heading}
-                items1={ServicesContent.cards.items1}
-    
-            />
             <PersonText
                 img={ServicesContent.persontext.img}
                 heading={ServicesContent.persontext.heading}
@@ -47,14 +42,19 @@ export default function Services() {
                 slides={ServicesContent.slides}
             /> */}
             <MotionComp/>
+            <Cards
+                heading={ServicesContent.cards.heading}
+                items1={ServicesContent.cards.items1}
+                
+                />
             <ImageText1
                 reverse = "flex-row-reverse"
                 heading={ServicesContent.imageText1.heading}
                 content1={ServicesContent.imageText1.content1}
                 img={ServicesContent.imageText1.img}
                 content={ServicesContent.imageText1.content}
-            />
-            <Footer/>
+                />
+                <Footer/>
         </div>
     )
 }
