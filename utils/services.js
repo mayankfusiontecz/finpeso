@@ -103,7 +103,7 @@ export const ServicesContent = {
                 },
                 {
                 span:"Real-Time Updates: ",
-                cotent: "Stay on top of your budget with live updates on spending and remaining funds.",
+                content: "Stay on top of your budget with live updates on spending and remaining funds.",
                 }
             ]
         },

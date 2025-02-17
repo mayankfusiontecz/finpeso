@@ -1,7 +1,7 @@
 export default function Cards(props) {
     return (
       <div
-        className="flex flex-col gap-5 items-center px-[3rem] overflow-hidden max-md:text-center"
+        className="flex flex-col gap-5 items-center px-[3rem] overflow-hidden max-md:text-center my-8"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
