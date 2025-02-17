@@ -1,6 +1,6 @@
 import Cards from "@/components/cards/Cards";
 import Footer from "@/components/footer/Footer";
-import HeroSection from "@/components/homepage/home/HeroSection";
+import HeroSection from "@/components/home/HeroSection";
 import ImageCard from "@/components/imagcards/ImageCard";
 import ImageText from "@/components/imageText/ImageText";
 import ImageText1 from "@/components/imagetext1/ImageText1";
@@ -29,6 +29,8 @@ export default function Home() {
         card6={homeContent.imageCard.card6}
       />
       <PhoneTextbg
+        img1={homeContent.phonetextbg.img1}
+        img2={homeContent.phonetextbg.img2}
         heading={homeContent.phonetextbg.heading}
         content1={homeContent.phonetextbg.content1}
         content2={homeContent.phonetextbg.content2}
@@ -41,6 +43,7 @@ export default function Home() {
         items={homeContent.whyitmatters.items}
       />
       <PersonText
+        img={homeContent.persontext.img}
         heading={homeContent.persontext.heading}
         content={homeContent.persontext.content}
       />

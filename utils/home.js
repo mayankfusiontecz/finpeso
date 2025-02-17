@@ -9,6 +9,9 @@ import thirdcomp4 from '@/public/assets/images/home/thirdcomp4.png'
 import thirdcomp5 from '@/public/assets/images/home/thirdcomp5.png'
 import sixthcomp1 from '@/public/assets/icons/home/sixthcomp1.png'
 import sixthcomp2 from '@/public/assets/icons/home/sixthcomp2.png'
+import seventhcomp1 from '@/public/assets/images/home/seventhcomp1.png'
+import phonetextbg1 from '@/public/assets/images/home/fourthcomp1.png'
+import phonetextbg2 from '@/public/assets/images/home/fourthcomp2.png'
 
 
 export const homeContent={
@@ -70,6 +73,8 @@ export const homeContent={
             }
     },
     phonetextbg:{
+        img1:phonetextbg1.src,
+        img2:phonetextbg2.src,
         heading:"VISUALIZE YOUR FINANCES WITH CHARTS AND GRAPHS",
         content1:"Simplify Your Financial Understanding",
         content2:"Finpeso brings your finances to life with easy-to-read charts and graphs. No more scrolling through endless lists of transactions — now you can see everything at a glance."
@@ -120,6 +125,7 @@ export const homeContent={
     ]
 },
     persontext:{
+        img:seventhcomp1.src,
         heading:"PLAN YOUR FUTURE WITH CONFIDENCE",
         content:"At Finpeso, we believe financial freedom starts with smart planning. By helping you understand your spending habits and align them with your goals, Finpeso empowers you to achieve more with less effort."
     },
