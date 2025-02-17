@@ -10,7 +10,7 @@ export default function HeroSection(){
     return(
             <div className={style['backgroundImage']}>
                 <Navbar activePath={activePath } setActivePath={setActivePath}/>
-                <div className="flex justify-between gap-1 p-[8%]">
+                <div className="flex justify-between gap-[3rem] pl-[8%] py-[5%]">
                     <div className="pt-5">
                         <div className="w-[90%] mt-5">
                             <p className="text-[2.5rem] text-white font-bold ">Finpeso – AI That Simplifies Your Finances</p>
@@ -18,7 +18,7 @@ export default function HeroSection(){
                             
                         </div>
                     </div>
-                    <div className="w-[70%]">
+                    <div className="w-[100%]">
                         <img src={mobile.src} alt="Mobile" className="h-full"/>
 
                     </div>
