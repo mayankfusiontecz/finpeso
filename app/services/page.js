@@ -9,6 +9,7 @@ import { ServicesContent } from "@/utils/services";
 import TextImage from "@/components/services/TextImage";
 import Accordian from "@/components/services/Accordion";
 import Cards from "@/components/services/Card";
+import MotionComp from "@/components/services/MotionComp";
 
 
 export default function Services() {
@@ -41,10 +42,11 @@ export default function Services() {
                 heading={ServicesContent.persontext.heading}
                 content={ServicesContent.persontext.content}
             />
-            <ImageWithSlider
+            {/* <ImageWithSlider
                 heading="HOW FINPESO HELPS YOU SAVE MONEY"
                 slides={ServicesContent.slides}
-            />
+            /> */}
+            <MotionComp/>
             <ImageText1
                 reverse = "flex-row-reverse"
                 heading={ServicesContent.imageText1.heading}
