@@ -6,7 +6,7 @@ export default function Cards(props) {
         data-aos-duration="1000"
       >
         <h6
-          className="text-[#090909] font-bold text-[2rem]"
+          className="text-[#172B85] font-bold text-[2rem]"
           data-aos="fade-up"
           data-aos-duration="1100"
         >

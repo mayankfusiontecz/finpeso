@@ -7,11 +7,12 @@ import card3 from '@/public/assets/images/services/card3.png'
 import textperson from '@/public/assets/images/services/textperson.png'
 import phonetextbg1 from '@/public/assets/images/services/phonetextbg1.png'
 import phonetextbg2 from '@/public/assets/images/services/phonetextbg2.png'
+import imagetext from '@/public/assets/images/services/imagetext.png'
 
 
 export const ServicesContent = {
     whyitmatters: {
-        heading: "Why Choose Finpeso?",
+        heading: "WHY CHOOSE FINPESO?",
         items: [
             {
                 img: sixthcomp1.src,
@@ -181,6 +182,7 @@ export const ServicesContent = {
             ],
         },
         imageText1:{
+            img:imagetext.src,
             heading:"Get Started with Finpeso Today",
             content1:"With Finpeso, managing your finances is no longer a chore. In just minutes, you can set up your account, connect your bank, and start seeing the benefits of clear, actionable financial insights. Whether it’s tracking expenses, setting budgets, or reaching savings goals, Finpeso has you covered.",
             content:"Start using Finpeso today and take the first step toward a smarter, more secure financial future."

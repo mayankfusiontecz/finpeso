@@ -46,8 +46,10 @@ export default function Services() {
                 slides={ServicesContent.slides}
             />
             <ImageText1
+                reverse = "flex-row-reverse"
                 heading={ServicesContent.imageText1.heading}
                 content1={ServicesContent.imageText1.content1}
+                img={ServicesContent.imageText1.img}
                 content={ServicesContent.imageText1.content}
             />
             <Footer/>

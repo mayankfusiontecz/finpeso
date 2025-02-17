@@ -17,7 +17,7 @@ export default function Footer() {
                     disavowed.
                 </p>
             </div>
-            <div className="flex py-10 gap-[5rem] max-lg:gap-[3rem] items-start justify-evenly text-[white] pr-5 max-md:p-[1rem]">
+            <div className="flex py-10 gap-[15rem] max-lg:gap-[3rem] items-start justify-evenly text-[white] pr-5 max-md:p-[1rem]">
                 <div className=" flex flex-row gap-[5rem] max-lg:gap-[4rem] max-md:flex-col max-md:px-[1rem] max-md:gap-[3rem]">
                     <div className="flex flex-col gap-2 max-md:w-[100%]">
                         <h6 className="w-[100%] text-[1.4rem] font-bold">Contact Us</h6>

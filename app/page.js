@@ -54,12 +54,14 @@ export default function Home() {
         
       />
       <ImageText1
+        reverse="flex-row"
         heading={homeContent.imageText1.heading}
         li1={homeContent.imageText1.li1}
         li2={homeContent.imageText1.li2}
         li3={homeContent.imageText1.li3}
         li4={homeContent.imageText1.li4}
         li5={homeContent.imageText1.li5}
+        img={homeContent.imageText1.img}
         content={homeContent.imageText1.content}
       />
       <Footer/>

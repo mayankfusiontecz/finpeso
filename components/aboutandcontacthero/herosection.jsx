@@ -14,7 +14,13 @@ export default function HeroSection(props){
                                     <div className="py-10 w-[60%]">
                                         <p className="text-[3.2rem] text-white font-bold w-[100%]">{props.heading}</p>
                                     </div>
-                                    
+                                    {
+                                        props.img1 && (
+                                            <div className='w-[50%]'>
+                                            <img src={props.img1} alt=''/>
+                                            </div>
+                                        )
+                                    }
                                 </div>
             </div>
         </>

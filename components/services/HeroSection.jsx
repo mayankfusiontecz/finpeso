@@ -13,8 +13,8 @@ export default function HeroSection(){
                 <div className="flex justify-between gap-[3rem] pl-[8%] py-[5%]">
                     <div className="pt-5">
                         <div className="w-[90%] mt-5">
-                            <p className="text-[2.5rem] text-white font-bold ">Finpeso – AI That Simplifies Your Finances</p>
-                            <p className="text-[2.5rem] text-[#1EC9E4] font-bold">Smart Tracking, Smarter Decisions, Stress-Free Money Management</p>
+                            <p className="text-[2.5rem] text-white font-bold ">FINPESO - AI THAT SIMPLIFIES YOUR FINANCES</p>
+                            <p className="text-[2.5rem] text-[#1EC9E4] font-bold">SMART TRACKING, SMARTER DECISIONS, STRESS-FREE MONEY MANAGEMENT</p>
                             
                         </div>
                     </div>

@@ -15,7 +15,7 @@ export default function OurLeadership(){
     ]
     return(
         <div className="flex flex-col items-center justify-center">
-            <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">MEET OUT LEADERSHIP</p>
+            <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">MEET OUT LEADERS</p>
             <div className="flex p-8 px-[15rem] justify-between gap-8">
                 {
                     items.map((item,index)=>{

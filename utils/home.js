@@ -12,6 +12,7 @@ import sixthcomp2 from '@/public/assets/icons/home/sixthcomp2.png'
 import seventhcomp1 from '@/public/assets/images/home/seventhcomp1.png'
 import phonetextbg1 from '@/public/assets/images/home/fourthcomp1.png'
 import phonetextbg2 from '@/public/assets/images/home/fourthcomp2.png'
+import ninecomp1 from '@/public/assets/images/home/ninecomp1.png'
 
 
 export const homeContent={
@@ -162,7 +163,7 @@ export const homeContent={
         ]
     },
     imageText1:{
-        img:secondcomp.src,
+        img:ninecomp1.src,
         heading:"GET STARTED WITH FINPESO TODAY!",
         li1:"Connect your bank accounts securely.",
         li2:"Set your financial goals and budget.",
