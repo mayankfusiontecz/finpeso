@@ -16,7 +16,7 @@ export default function ContactPage() {
         {
             icon: <PiPhoneCallBold />,
             title: "PHONE",
-            span: "03 5432 1234"
+            span: "519-731-5885"
         },
         {
             icon: <MdOutlineFax />,
@@ -26,7 +26,7 @@ export default function ContactPage() {
         {
             icon: <LiaEnvelopeOpenTextSolid />,
             title: "EMAIL",
-            span: "info@marcc.com.au"
+            span: "info@finpeso.com"
         }
     ]
     return (

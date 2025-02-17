@@ -21,27 +21,27 @@ export default function Footer() {
                 <div className=" flex flex-row gap-[5rem] max-lg:gap-[4rem] max-md:flex-col max-md:px-[1rem] max-md:gap-[3rem]">
                     <div className="flex flex-col gap-2 max-md:w-[100%]">
                         <h6 className="w-[100%] text-[1.4rem] font-bold">Contact Us</h6>
-                        <p className='font-semibold'> Office Location</p>
-                        <p>124, Queens walk 2nd cross Denmark</p>
+                        {/* <p className='font-semibold'> Office Location</p>
+                        <p>124, Queens walk 2nd cross Denmark</p> */}
                         <p className='font-semibold mt-2'>Phone No.</p>
                         <p><Link href={"tel:+15197315885"}>519-731-5885</Link></p>
-                        <p className='font-semibold mt-2'>mail Address</p>
-                        <p><Link href={"mailto:info@growise.com"}>info@growise.com</Link></p>
+                        <p className='font-semibold mt-2'>Email Address</p>
+                        <p><Link href={"mailto:info@growise.com"}>info@finpeso.com</Link></p>
                     </div>
                     <div className="flex flex-col gap-3 max-md:w-[100%]">
                         <h6 className="w-[100%] text-[1.4rem] font-bold mb-5">Useful Links</h6>
                         <ul className="flex flex-col gap-5">
                             <li className="flex gap-2 items-center relative pl-4">
                                 <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 rounded-full bg-[#fff]"></span>
-                                <Link href={"/"}>Fipeso Service</Link>
+                                <Link href={"/"}>Fipeso About</Link>
                             </li>
                             <li className="flex gap-2 items-center relative pl-4">
                                 <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 rounded-full bg-[#fff]"></span>
-                                <Link href={"/"}>Fipeso Service</Link>
+                                <Link href={"/"}>Fipeso Services</Link>
                             </li>
                             <li className="flex gap-2 items-center relative pl-4">
                                 <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 rounded-full bg-[#fff]"></span>
-                                <Link href={"/"}>Fipeso Service</Link>
+                                <Link href={"/"}>Fipeso Contact</Link>
                             </li>
                         </ul>
                     </div>
@@ -51,7 +51,7 @@ export default function Footer() {
                         <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.facebook.com"><FaFacebookF /></Link></li>
                         <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.pinterest.com"><FaPinterestP /></Link></li>
                         <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.x.com"><FaTwitter /></Link></li>
-                        <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.linkedin.com"><FaLinkedinIn /></Link></li>
+                        <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.linkedin.com/company/finpeso/"><FaLinkedinIn /></Link></li>
                     </ul>
             </div>
         </div>
