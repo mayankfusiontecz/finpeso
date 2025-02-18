@@ -14,7 +14,7 @@ export default function HeroSection(){
     return(
             <div className={style['backgroundImage']}>
                 <Navbar activePath={activePath } setActivePath={setActivePath}/>
-                <div className="flex justify-between gap-[5rem] py-[3%] px-[8%]">
+                <div className="flex justify-center gap-[8rem] py-[3%] px-[8%]">
                     <div className="pt-5">
                         <div className="inline-flex w-auto rounded-2xl text-sm text-white bg-white bg-opacity-20 px-[16px] py-[6px]">
                         <img className="mr-2" src={fire.src} alt="Fire"/>
@@ -29,7 +29,7 @@ export default function HeroSection(){
                             </div>
                         </div>
                     </div>
-                    <div className="w-[50%]">
+                    <div className="">
                         <img src={mobile.src} alt="Mobile" className="h-full"/>
 
                     </div>
