@@ -47,7 +47,7 @@ export default function ImageWithSlider(props) {
           {props.slides.map((item, index) => (
             <div
               key={index}
-              ref={(el) => (cardRefs.current[index] = el)} // Assign ref to each card
+              ref={(el) => (cardRefs.current[index] = el)}
               className={`border border-[#E5E5E5] w-[80%] h-[80%] rounded-xl flex flex-col gap-5 p-5 transition-all duration-500 ${
                 activeIndex === index ? "bg-[#F2FEFE]" : "bg-white"
               }`}

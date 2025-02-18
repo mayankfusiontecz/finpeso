@@ -16,7 +16,7 @@ export default function HeroSection(props){
                                     </div>
                                     {
                                         props.img1 && (
-                                            <div className='w-[40%]'>
+                                            <div className='w-[50%]'>
                                             <img src={props.img1} alt=''/>
                                             </div>
                                         )

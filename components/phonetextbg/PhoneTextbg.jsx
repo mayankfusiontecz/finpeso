@@ -15,12 +15,12 @@ export default function PhoneTextbg(props){
                 {
                 props.img1?(
                     <div className='flex justify-center items-center w-[50%] py-[2rem]'  data-aos="zoom-in">
-                        <img src={props.img1} alt='phone 1' className='w-[70%]'/>
+                        <img src={props.img1} alt='phone 1' className='w-[50%]'/>
                     </div>
                     )
                     :
                     (
-                        <div  className='flex justify-center items-end w-[40%] py-[3rem] gap-5' data-aos="zoom-in">
+                        <div  className='flex justify-center items-end w-[25%] py-[3rem]' data-aos="zoom-in">
                             <img src={props.image1} alt='phone 1' className=''/>
                         </div>
                     )

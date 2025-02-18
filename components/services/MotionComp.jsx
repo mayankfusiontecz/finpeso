@@ -47,7 +47,7 @@ export default function MotionComp() {
                             key={feature.id}
                             onMouseEnter={() => setHoveredId(feature.id)}
                             // onMouseLeave={() => setHoveredId(null)}
-                            className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all`}
+                            className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all ${hoveredId === feature.id ? 'bg-[#E0ECFD]' : ''}`}
                             animate={{ height: hoveredId === feature.id ? "auto" : "80px" }}
                         >
                             <div className="flex items-center gap-3 p-8">
@@ -71,7 +71,7 @@ export default function MotionComp() {
                         </motion.div>
                     ))}
                 </div>
-                <div className="flex items-end justify-end">
+                <div className="flex items-end justify-end w-[40%]">
                     <img src={motioncomp1.src} alt="" className=""/>
                 </div>
             </div>
