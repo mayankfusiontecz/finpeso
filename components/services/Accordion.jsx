@@ -9,7 +9,7 @@ export default function Accordion(props) {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center mt-8">
+        <div className="flex flex-col items-center justify-center mb-8">
             <p className="font-montserrat text-[2.2rem] font-bold text-center mb-4 text-[#172B85]">{props.heading}</p>
             {/* <p className="font-lato text-lg text-center mb-8 text-[#525252] w-1/2">When you work with us, you're getting a full team of specialists who can help with every aspect of your business:</p> */}
             <div className="flex flex-col gap-8 justify-center px-[10%] w-screen" data-aos="fade-down" data-aos-delay='400'>

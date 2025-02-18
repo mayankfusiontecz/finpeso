@@ -29,7 +29,7 @@ export default function Home() {
         card6={homeContent.imageCard.card6}
       />
       <PhoneTextbg
-        img1={homeContent.phonetextbg.img1}
+        image1={homeContent.phonetextbg.img1}
         img2={homeContent.phonetextbg.img2}
         heading={homeContent.phonetextbg.heading}
         content1={homeContent.phonetextbg.content1}
