@@ -53,6 +53,7 @@ export default function MotionComp() {
                                 backgroundColor: hoveredId === feature.id ? "#E0ECFD" : "white",
                                 color: hoveredId === feature.id ? "black" : ""
                             }}
+                             data-aos="flip-up"
                         >
                             <div className="flex items-center gap-3 p-8">
                                 <span className="text-xl text-gray-700">{feature.icon}</span>
@@ -76,7 +77,7 @@ export default function MotionComp() {
                     ))}
                 </div>
                 <div className="flex items-end justify-end w-[40%]">
-                    <img src={motioncomp1.src} alt="" className=""/>
+                    <img src={motioncomp1.src} alt="" className="" data-aos="flip-left"/>
                 </div>
             </div>
         </div>

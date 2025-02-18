@@ -8,7 +8,7 @@ export default function TextImage() {
                 <p className='text-[#676666] mb-5'>Managing your money doesn’t have to be complicated. With Finpeso, you can handle all your financial needs in one place, get instant clarity on your spending, and start saving smarter. Our goal is to make managing your finances easy, effective, and stress-free—all within minutes.</p>
             </div>
 
-            <img src={imagetext.src} alt="" className='w-[50%]' />
+            <img src={imagetext.src} alt="" className='w-[50%]'  data-aos="fade-left"/>
         </div>
     )
 }
