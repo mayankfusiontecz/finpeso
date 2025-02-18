@@ -24,7 +24,6 @@ export default function Services() {
             />
             <PhoneTextbg
                 image1={ServicesContent.phonetextbg.img1}
-                image2={ServicesContent.phonetextbg.img2}
                 heading={ServicesContent.phonetextbg.heading}
                 content2={ServicesContent.phonetextbg.content2}
             />

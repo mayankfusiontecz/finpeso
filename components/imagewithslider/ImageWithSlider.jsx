@@ -41,9 +41,9 @@ export default function ImageWithSlider(props) {
   return (
     <div className="flex flex-col justify-center items-center p-5">
       <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">{props.heading}</p>
-      <div className="flex">
+      <div className="flex items-center">
         {/* Left section with cards */}
-        <div className="flex flex-col justify-center gap-5 ml-[5rem] relative"  data-aos="zoom-out">
+        <div className="flex flex-col justify-center items-center gap-5 ml-[5rem] relative"  data-aos="zoom-out">
           {props.slides.map((item, index) => (
             <div
               key={index}
@@ -73,7 +73,7 @@ export default function ImageWithSlider(props) {
         </div>
 
         {/* Right section with image */}
-        <img src={fifthcomp1.src} alt="fifthcomp" className="ml-5"  data-aos="zoom-out-up"/>
+        <img src={fifthcomp1.src} alt="fifthcomp" className="w-[40%] h-[40%]"  data-aos="zoom-out-up"/>
       </div>
     </div>
   );

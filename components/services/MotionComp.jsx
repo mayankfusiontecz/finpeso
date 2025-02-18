@@ -5,7 +5,6 @@ import { RiSearch2Fill } from "react-icons/ri";
 import { SlNote } from "react-icons/sl";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
 import motioncomp1 from '@/public/assets/images/services/motioncomp1.png'
-import motioncomp2 from '@/public/assets/images/services/motioncomp2.png'
 import { PiNetworkXFill } from "react-icons/pi";
 
 const features = [
@@ -39,15 +38,15 @@ export default function MotionComp() {
     const [hoveredId, setHoveredId] = useState(1);
 
     return (
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center px-[5rem]">
             <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">HOW FINPESO HELPS YOU SAVE MONEY</p>
-            <div className="flex justify-between gap-[5rem] items-center">
+            <div className="flex justify-between gap-[8rem] items-center">
                 <div className="max-w-lg mx-auto space-y-4 w-[100vw]">
                     {features.map((feature) => (
                         <motion.div
                             key={feature.id}
                             onMouseEnter={() => setHoveredId(feature.id)}
-                            onMouseLeave={() => setHoveredId(null)}
+                            // onMouseLeave={() => setHoveredId(null)}
                             className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all`}
                             animate={{ height: hoveredId === feature.id ? "auto" : "80px" }}
                         >
@@ -72,9 +71,8 @@ export default function MotionComp() {
                         </motion.div>
                     ))}
                 </div>
-                <div className="flex items-end">
-                    <img src={motioncomp1.src} alt="" className="h-[80%]"/>
-                    <img src={motioncomp2.src} alt="" className="h-[60%]"/>
+                <div className="flex items-end justify-end">
+                    <img src={motioncomp1.src} alt="" className=""/>
                 </div>
             </div>
         </div>
