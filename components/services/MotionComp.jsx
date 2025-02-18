@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
+import { hover, motion } from "framer-motion";
 import { RiSearch2Fill } from "react-icons/ri";
 import { SlNote } from "react-icons/sl";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
@@ -47,8 +47,12 @@ export default function MotionComp() {
                             key={feature.id}
                             onMouseEnter={() => setHoveredId(feature.id)}
                             // onMouseLeave={() => setHoveredId(null)}
-                            className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all ${hoveredId === feature.id ? 'bg-[#E0ECFD]' : ''}`}
+                            className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all`}
                             animate={{ height: hoveredId === feature.id ? "auto" : "80px" }}
+                            style={{
+                                backgroundColor: hoveredId === feature.id ? "#E0ECFD" : "white",
+                                color: hoveredId === feature.id ? "black" : ""
+                            }}
                         >
                             <div className="flex items-center gap-3 p-8">
                                 <span className="text-xl text-gray-700">{feature.icon}</span>
@@ -60,7 +64,7 @@ export default function MotionComp() {
                             </div>
                             {hoveredId === feature.id && (
                                 <motion.p
-                                    className="px-4 pb-4 ml-[2rem] text-[#224277]"
+                                    className="px-4 pb-4 ml-[3rem] text-[#224277]"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     transition={{ duration: 0.2 }}
