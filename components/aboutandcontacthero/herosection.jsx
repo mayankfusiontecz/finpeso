@@ -10,13 +10,13 @@ export default function HeroSection(props){
         <>
             <div className={style['backgroundImage']}  style={{ backgroundImage: `url(${props.img})` }}>
                 <Navbar activePath={activePath} setActivePath={setActivePath}/>
-                <div className="flex items-center justify-between gap-[4rem]  py-[3%] px-[8%]">
+                <div className="flex items-center justify-between gap-[4rem]  py-[8%] px-[8%]">
                                     <div className="py-10 w-[40%]">
                                         <p className="text-[3.2rem] text-white font-bold w-[100%]">{props.heading}</p>
                                     </div>
                                     {
                                         props.img1 && (
-                                            <div className=''>
+                                            <div className='w-[40%]'>
                                             <img src={props.img1} alt=''/>
                                             </div>
                                         )
