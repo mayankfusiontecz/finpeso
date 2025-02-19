@@ -32,7 +32,7 @@ export default function ContactPage() {
     return (
         <div className="flex gap-[3rem] p-[3rem] px-[8rem]">
             <div className="w-[50%]">
-                <p className="text-[2.5rem] text-[#000] font-bold"> Get in <span className="text-[#224277]">Touch</span></p>
+                <p className="text-[2.5rem] text-[#000] font-bold"> Get in <span className="text-[#172B85]">Touch</span></p>
                 <p className="text-[#161919] font-semibold">Services from us are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible</p>
                 <form className="flex flex-col gap-5 py-5">
                     <input type="text" name="name" placeholder="Name *" requred={true} className="border-2 text-[#070030] px-[1rem] py-[0.8rem] outline-non text-[1rem]" />

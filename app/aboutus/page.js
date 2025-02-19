@@ -8,11 +8,12 @@ import herocomp from '@/public/assets/images/about/herocomp.png'
 
 export default function Aboutus(){
     return(
-        <div className="flex flex-col gap-8 overflow-hidden">
+        <div className="flex flex-col gap-[2rem] overflow-hidden">
             <HeroSection
                 img={aboutus.src}
                 img1={herocomp.src}
-                heading={"Making Money Management Smart & Simple"}
+                heading={"MAKING MONEY MANAGEMENT SMART & SIMPLE"}
+                subhead={""}
                 path="/aboutus"
             />
             <ImageText/>

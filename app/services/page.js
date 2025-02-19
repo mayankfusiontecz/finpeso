@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/Footer";
 import HeroSection from "@/components/services/HeroSection";
 import ImageText1 from "@/components/imagetext1/ImageText1";
-import ImageWithSlider from "@/components/imagewithslider/ImageWithSlider";
 import PersonText from "@/components/persontext/PersonText";
 import PhoneTextbg from "@/components/phonetextbg/PhoneTextbg";
 import WhyItMatters from "@/components/whyitmatters/WhyItMatters";
@@ -14,7 +13,6 @@ import MotionComp from "@/components/services/MotionComp";
 
 export default function Services() {
     return (
-
         <div className="flex flex-col gap-[2rem] overflow-hidden">
             <HeroSection />
             <TextImage/>

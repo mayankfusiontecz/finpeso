@@ -6,11 +6,12 @@ import herocomp from '@/public/assets/images/contact/herocomp.png'
 
 export default function Contact(){
     return(
-        <div className="flex flex-col gap-8 overflow-hidden">
+        <div className="flex flex-col gap-[2rem] overflow-hidden">
             <HeroSection
                 img={contact.src}
                 img1={herocomp.src}
-                heading={"CONTACT US"}
+                heading={"YOUR PATH TO SMARTER FINANCES "}
+                subhead={"STARTS HERE!"}
                 path={"/contact"}
             />
             <ContactPage/>

@@ -1,4 +1,4 @@
-import logo from '@/public/assets/images/logo.png'
+import logo from '@/public/assets/images/logo.svg'
 import Link from 'next/link'
 import { FaFacebookF, FaPinterestP, FaTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";

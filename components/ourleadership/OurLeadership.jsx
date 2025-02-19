@@ -3,7 +3,7 @@
 export default function OurLeadership(){
     const items=[
         {
-            heading:"JASWINDER SINGH", 
+            heading:"JAZ SINGH", 
             designation:"FOUNDER",
             content:"A globally certified financial and tech leader, Jaswinder brings a wealth of international experience and cutting-edge expertise to every project. Holding prestigious certifications from PMP, Google, IBM, CFI, and the New York Institute of Finance, he is committed to leveraging fintech innovation to transform financial management."
         },

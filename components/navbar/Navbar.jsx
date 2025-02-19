@@ -1,14 +1,16 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/assets/images/logo.png";
+import logo from "../../public/assets/images/logo.svg";
 import style from "../navbar/navbar.module.css";
 import { useState, useEffect } from "react";
 import WhiteMenu from '@/public/assets/icons/menu.svg'
+import { useRouter } from "next/navigation";
 
 export default function Navbar({activePath,setActivePath}) {
     const [showDropdown, setShowDropdown] = useState(false);
-    const [isDrawerOpen,setDrawerOpen] = useState(false)
+    const [isDrawerOpen,setDrawerOpen] = useState(false);
+    const router = useRouter();
 
     const toggleDrawer =()=>{
         setDrawerOpen(!isDrawerOpen)
@@ -58,8 +60,8 @@ export default function Navbar({activePath,setActivePath}) {
             </div>
             <div>
 
-            <button className={`${activePath === "/contact" ? "bg-[#113471] text-white px-[1.5rem] py-[0.5rem] rounded-3xl font-bold border-2 border-white" : "bg-[#fff] text-[#113471] text-[1.2rem] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden"}`}>
-                <Link href="/contact">Contact</Link>
+            <button onClick={()=> router.push("/contact")} className={`${activePath === "/contact" ? "bg-[#113471] text-white px-[1.5rem] py-[0.5rem] rounded-3xl font-bold border-2 border-white" : "bg-[#fff] text-[#113471] text-[1.2rem] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden"}`}>
+                Contact
             </button>
             </div>
             <img src={WhiteMenu.src} className="hidden max-md:flex text-[#fff]" onClick={toggleDrawer} alt="Menu"/>
@@ -77,8 +79,8 @@ export default function Navbar({activePath,setActivePath}) {
                     >Services</Link>
                     
             </div>
-            <button className="bg-[#00A3F7] text-white self-start px-[1.5rem] py-[0.5rem] max-md:hidden">
-                <Link href="/contact">Contact</Link>
+            <button className="bg-[#00A3F7] text-white self-start px-[1.5rem] py-[0.5rem] max-md:hidden" onClick={()=> router.push("/contact")}>
+               Contact
             </button>
             </>)}
         </nav>
