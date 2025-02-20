@@ -60,7 +60,7 @@ export default function Navbar({activePath,setActivePath}) {
             </div>
             <div>
 
-            <button onClick={()=> router.push("/contact")} className={`${activePath === "/contact" ? "bg-[#113471] text-white px-[1.5rem] py-[0.5rem] rounded-3xl font-bold border-2 border-white" : "bg-[#fff] text-[#113471] text-[1.2rem] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden"}`}>
+            <button onClick={()=> router.push("/contact")} className={`${activePath === "/contact" ? "bg-[#113471] text-white px-[1.5rem] py-[0.5rem] rounded-3xl font-bold border-2 border-white  max-md:hidden" : "bg-[#fff] text-[#113471] text-[1.2rem] rounded-3xl font-bold self-start px-[1.5rem] py-[0.5rem] max-md:hidden"}`}>
                 Contact
             </button>
             </div>
@@ -69,19 +69,19 @@ export default function Navbar({activePath,setActivePath}) {
                 <>
                 <div className="flex flex-col gap-[2rem] top-[12%] left-[60%] fixed z-1000 bg-[#061E42] p-[5%] rounded-sm">
                     <Link href="/" onClick={() => handleLinkClick("/")}
-                        className={`${style.navLink} ${activePath === "/" ? style.navActive : ''}`}
+                        className={`${style.navLink} ${activePath === "/" ? 'font-bold' : ''}`}
                     >Home</Link>
                      <Link href="/aboutus" onClick={() => handleLinkClick("/aboutus")}
-                        className={`${style.navLink} ${activePath === "/aboutus" ? style.navActive : ''}`}
+                        className={`${style.navLink} ${activePath === "/aboutus" ? 'font-bold' : ''}`}
                     >About Us</Link>
                     <Link href="/services" onClick={() => handleLinkClick("/services")}
-                        className={`${style.navLink} ${activePath === "/services" ? style.navActive : ''}`}
+                        className={`${style.navLink} ${activePath === "/services" ? 'font-bold' : ''}`}
                     >Services</Link>
+                    <Link href="/contact" onClick={() => handleLinkClick("/contact")}
+                        className={`${style.navLink} ${activePath === "/contact" ? 'font-bold' : ''}`}
+                    >Contact</Link>
                     
             </div>
-            <button className="bg-[#00A3F7] text-white self-start px-[1.5rem] py-[0.5rem] max-md:hidden" onClick={()=> router.push("/contact")}>
-               Contact
-            </button>
             </>)}
         </nav>
     );
