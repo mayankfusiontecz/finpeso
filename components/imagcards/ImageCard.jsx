@@ -19,11 +19,11 @@ export default function ImageCard(props) {
     return (
         <div className='flex flex-col justify-center gap-8 items-center  '>
             <p className='text-[#172B85] mb-10 text-[2.2rem] font-bold max-md:text-[1.5rem] max-md:text-center max-md:mb-2'>{props.heading}</p>
-            <div className='flex justify-between gap-0 bg-[#F2FEFE] px-[2rem] w-[90%] max-md:p-[1rem] max-md:gap-[1rem] max-md:items-end'>
-                <div className='flex relative ml-12 w-[30%] max-md:ml-2 max-md:h-[30%] max-md:bottom-0' data-aos="fade-up-right">
-                    <img src={thirdcomp1.src} alt='Mobile' className="max-md:mb-[-1rem]"/>
+            <div className='flex justify-between gap-0 bg-[#F2FEFE] px-[2rem] w-[100%] max-md:p-[1rem] max-md:gap-[1rem] max-md:items-end max-md:justify-center'>
+                <div className='flex relative ml-12 w-[30%] max-md:ml-2 max-md:h-[30%] max-md:bottom-0 max-md:w-0' data-aos="fade-up-right">
+                    <img src={thirdcomp1.src} alt='Mobile' className="max-md:mb-[-1rem] max-md:hidden"/>
                 </div>
-                <div className='flex flex-col justify-center w-[50%] max-md:w-[70%]' data-aos="fade-up-left">
+                <div className='flex flex-col justify-center w-[50%] max-md:w-[100%]' data-aos="fade-up-left">
                     <p className='text-[1.8rem] mb-5 font-bold max-md:text-[1.2rem] max-md:mb-1'>
                         {props.card1.heading}
                     </p>
@@ -53,7 +53,7 @@ export default function ImageCard(props) {
                         <li>{props.card3.span1 && (<span className='font-semibold'>{props.card3.span1}</span>)}{props.card3.li1}</li>
                         <li>{props.card3.span2 && (<span className='font-semibold'>{props.card3.span2}</span>)}{props.card3.li2}</li>
                     </ul>
-                    <img src={thirdcomp3.src} alt='icon' className='mb-[-100%] h-[100%]' />
+                    <img src={thirdcomp3.src} alt='icon' className='mb-[-100%] h-[100%] max-md:h-[80%] max-lg:w-[90%]' />
                 </div>
             </div>
             <div className='flex justify-center gap-5 mx-[5rem] max-md:flex-col max-md:mx-0 max-md:items-center max-md:p-[1rem]'>
@@ -79,7 +79,7 @@ export default function ImageCard(props) {
                         <li>{props.card6.span1 && (<span className='font-semibold'>{props.card6.span1}</span>)}{props.card6.li1}</li>
                         <li>{props.card6.span2 && (<span className='font-semibold'>{props.card6.span2}</span>)}{props.card6.li2}</li>
                     </ul>
-                    <img src={props.card6.img} alt='' className='bottom-0 w-[20vw] mt-[2rem] max-md:mb-[-1rem]' />
+                    <img src={props.card6.img} alt='' className='bottom-0 w-[20vw] mt-[2rem] max-md:mb-[-1rem] max-md:w-[60vw]' />
                 </div>
             </div>
         </div>
