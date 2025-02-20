@@ -16,7 +16,7 @@ export default function HeroSection() {
     return (
         <div className={style['backgroundImage']}>
             <Navbar activePath={activePath} setActivePath={setActivePath} />
-            <div className="flex items-center justify-center gap-[8rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[15%] max-md:pt-[10%]">
+            <div className="flex items-center justify-center gap-[8rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[25%] max-md:pt-[20%]">
                 <div className="pt-5">
                     <div className="inline-flex w-auto rounded-2xl items-center text-sm text-white bg-white bg-opacity-20 px-[16px] py-[6px] max-md:text-[0.4rem]">
                         {/* <img className="mr-2" src={fire.src} alt="Fire"/> */}

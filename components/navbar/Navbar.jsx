@@ -45,7 +45,7 @@ export default function Navbar({activePath,setActivePath}) {
         <nav className="flex w-full justify-between items-center py-[2rem] px-[2.6rem] max-md:px-[1rem] max-md:py-[0.8rem]">
             <Link href="/" onClick={() => handleLinkClick("/")}
                 className={style.navLink}>
-                <Image src={logo} alt="company-logo" className="w-[200px] max-md:w-[100px]" />
+                <Image src={logo} alt="company-logo" className="w-[200px] max-md:w-[120px]" />
             </Link>
             <div className="flex gap-[3rem] max-md:hidden">
                     <Link href="/" onClick={() => handleLinkClick("/")}
