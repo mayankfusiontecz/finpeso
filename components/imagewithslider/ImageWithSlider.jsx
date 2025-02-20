@@ -41,14 +41,14 @@ export default function ImageWithSlider(props) {
   return (
     <div className="flex flex-col justify-center items-center p-5">
       <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">{props.heading}</p>
-      <div className="flex items-center">
+      <div className="flex items-center max-md:flex-col">
         {/* Left section with cards */}
-        <div className="flex flex-col justify-center items-center gap-5 ml-[5rem] relative"  data-aos="zoom-out">
+        <div className="flex flex-col justify-center items-center gap-5 ml-[5rem] relative max-md:ml-[1.5rem]"  data-aos="zoom-out">
           {props.slides.map((item, index) => (
             <div
               key={index}
               ref={(el) => (cardRefs.current[index] = el)}
-              className={`border border-[#E5E5E5] w-[80%] h-[80%] rounded-xl flex flex-col gap-5 p-5 transition-all duration-500 ${
+              className={`border border-[#E5E5E5] w-[80%] h-[80%] rounded-xl flex flex-col gap-5 p-5 transition-all duration-500 max-md:w-[100%] ${
                 activeIndex === index ? "bg-[#F2FEFE]" : "bg-white"
               }`}
             >
@@ -61,7 +61,7 @@ export default function ImageWithSlider(props) {
           ))}
 
           {/* Tube effect */}
-          <div className="absolute left-[-40px] top-0 h-full w-4 bg-gray-300 rounded-full">
+          <div className="absolute left-[-40px] top-0 h-full w-4 bg-gray-300 rounded-full max-md:w-2 max-md:left-[-30px]">
             {/* Dynamic fill for the active card */}
             <motion.div
               className="bg-[#172B85] rounded-full w-full"

@@ -5,8 +5,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className="flex flex-row gap-[8rem] max-lg:gap-[2rem] px-15 bg-[#061E42] max-md:flex-col bg-[url('/assets/background/footer.png')] bg-cover bg-center">
-            <div className="flex flex-col gap-5 w-[28%] px-[1.5rem] py-[1.5rem] mx-[5%] max-md:items-center max-md:justify-center max-md:text-center">
+        <div className="flex flex-row gap-[8rem] max-lg:gap-[2rem] px-15 bg-[#061E42] max-md:flex-col bg-[url('/assets/background/footer.png')] bg-cover bg-center max-md:gap-[2rem]">
+            <div className="flex flex-col gap-5 w-[28%] px-[1.5rem] py-[1.5rem] mx-[5%] max-md:items-center max-md:justify-center max-md:text-center max-md:w-[100%] max-md:mx-[0%]">
                 <img src={logo.src} alt="Logo" className='w-[50%] mb-2' />
                 <p className='text-white text-[1.2rem]'>
                     We will likely assistance organizations
@@ -44,7 +44,7 @@ export default function Footer() {
                         </ul>
                     </div>
             </div>
-                <ul className="flex flex-col text-[white] items-center self-center justify-center gap-3">
+                <ul className="flex flex-col text-[white] items-center self-center justify-center gap-3 max-md:hidden">
                         {/* <li className="flex gap-2 items-center justify-center bg-[#00A3F7] w-[40px] h-[40px]"><FaTwitter /></Link></li> */}
                         <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.facebook.com"><FaFacebookF /></Link></li>
                         <li className="flex gap-2 items-center justify-center border border-white rounded-3xl w-[40px] h-[40px]"><Link href="https://www.pinterest.com"><FaPinterestP /></Link></li>
