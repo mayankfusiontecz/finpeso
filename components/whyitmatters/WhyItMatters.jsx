@@ -19,9 +19,9 @@ export default function WhyItMatters(props) {
         })
     },[])
     return (
-        <div className='flex flex-col justify-center items-center px-12 max-md:px-5'>
+        <div className='flex flex-col justify-center items-center px-12 max-md:px-5 max-lg:px-0'>
             <p className='text-[#172B85] text-[2.2rem] font-bold max-md:text-[1.2rem]'>{props.heading}</p>
-            <div className='flex gap-8 w-full p-8 justify-items-center max-md:hidden' data-aos="flip-down">
+            <div className='flex gap-8 w-full p-8 justify-items-center max-md:hidden  max-lg:gap-2' data-aos="flip-down">
                 {
                     props.items.map((item, index) => {
                         return (

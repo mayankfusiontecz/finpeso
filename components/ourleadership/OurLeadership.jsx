@@ -25,12 +25,13 @@ export default function OurLeadership(){
     return(
         <div className="flex flex-col items-center justify-center">
             <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold max-md:text-[1.5rem] max-md:text-center max-md:mb-2">MEET OUT LEADERS</p>
-            <div className="flex p-8 px-[15rem] justify-between gap-[8rem] max-md:hidden">
+            <div className="flex p-8 px-[15rem] justify-between gap-[8rem] max-md:hidden max-lg:gap-[2rem]">
                 {
                     items.map((item,index)=>{
                         return(
                             <div key={index} 
-                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300 
+                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300
+                            max-lg:w-[40vw]
                         hover:bg-[#E6F0FD] hover:before:absolute hover:before:right-0 hover:before:bottom-0 hover:before:w-[10px] hover:before:h-full hover:before:bg-[#172B85] hover:before:rounded-br-2xl hover:before:rounded-tr-lg
                         hover:after:absolute hover:after:right-0 hover:after:bottom-0 hover:after:h-[10px] hover:after:w-full hover:after:bg-[#172B85] hover:after:rounded-br-2xl hover:after:rounded-bl-lg"
                             style={{ boxShadow: '9px 13px 36.3px 8px rgba(0, 0, 0, 0.15)' }}
@@ -38,7 +39,7 @@ export default function OurLeadership(){
                             >
                             <p className="text-[#172B85] text-[1.5rem] font-bold mb-2">{item.heading}</p>
                             <p className="text-[#676666] mb-4">{item.designation}</p>
-                            <p className="text-[#676666]">{item.content}</p>
+                            <p className="text-[#676666] text-justify">{item.content}</p>
                             </div>
 
                         )
@@ -49,24 +50,24 @@ export default function OurLeadership(){
         <Swiper
                     modules={[Autoplay,Pagination]}
                     spaceBetween={20}
-                    slidesPerView={1}
+                    slidesPerView={1} 
                     loop={true}
                     autoplay={{ delay: 3000 }}
                     onSlideChange={({ realIndex }) => setActiveCardIndex(realIndex)} 
-                    className="w-[90%]  rounded-lg shadow-lg"
+                    className="w-[90%] rounded-lg shadow-lg"
                 >
           {
                     items.map((item, index)=>(
-                        <SwiperSlide key={index}>
+                        <SwiperSlide key={index} className="h-full flex items-stretch">
                          <div key={index} 
-                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300 
+                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300 self-stretch  h-[420px]
                        "
                             style={{ boxShadow: '9px 13px 36.3px 8px rgba(0, 0, 0, 0.15)' }}
                                  data-aos="zoom-in"
                             >
                             <p className="text-[#172B85] text-[1.5rem] font-bold mb-2">{item.heading}</p>
                             <p className="text-[#676666] mb-4">{item.designation}</p>
-                            <p className="text-[#676666]">{item.content}</p>
+                            <p className="text-[#676666] text-justify">{item.content}</p>
                             </div>
                         </SwiperSlide>
                     ))

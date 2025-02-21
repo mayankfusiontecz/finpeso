@@ -38,9 +38,9 @@ export default function MotionComp() {
     const [hoveredId, setHoveredId] = useState(1);
 
     return (
-        <div className="flex flex-col items-center px-[5rem]">
+        <div className="flex flex-col items-center px-[5rem] max-lg:px-[2rem]">
             <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold max-md:text-[1.5rem] max-md:text-center max-md:mb-2">HOW FINPESO HELPS YOU SAVE MONEY</p>
-            <div className="flex justify-between gap-[8rem] items-center max-md:flex-col-reverse max-md:gap-[1rem] max-md:p-2 max-md:items-center">
+            <div className="flex justify-between gap-[8rem] items-center max-md:flex-col-reverse max-md:gap-[1rem] max-md:p-2 max-md:items-center max-lg:gap-[1rem]">
                 <div className="max-w-lg mx-auto space-y-4 w-[100vw] max-md:w-[90vw]">
                     {features.map((feature) => (
                         <motion.div

@@ -16,14 +16,14 @@ export default function HeroSection() {
     return (
         <div className={style['backgroundImage']}>
             <Navbar activePath={activePath} setActivePath={setActivePath} />
-            <div className="flex items-center justify-center gap-[8rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[25%] max-md:pt-[20%]">
+            <div className="flex items-center justify-center gap-[8rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[25%] max-md:pt-[20%] max-lg:gap-[2rem]">
                 <div className="pt-5">
                     <div className="inline-flex w-auto rounded-2xl items-center text-sm text-white bg-white bg-opacity-20 px-[16px] py-[6px] max-md:text-[0.4rem]">
                         {/* <img className="mr-2" src={fire.src} alt="Fire"/> */}
                         <p className="font-semibold">🔥100% TRUSTED PLATFORM</p>
                     </div>
                     <div className="w-[90%] mt-5">
-                        <h1 className="text-[2.5rem] text-white font-bold max-md:text-[1rem]">WELCOME TO FINPESO – YOUR PERSONAL</h1>
+                        <h1 className="text-[2.5rem] text-white font-bold max-md:text-[1rem] max-lg:text-[1.5rem]">WELCOME TO FINPESO – YOUR PERSONAL</h1>
                         {text.split("").map((char, index) => (
                             <motion.span
                                 key={index}
@@ -34,7 +34,7 @@ export default function HeroSection() {
                                     duration: 0.4,
                                     ease: "easeOut",
                                 }}
-                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] max-md:text-[1rem]"
+                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] max-md:text-[1rem] max-lg:text-[1.2rem]"
                             >
                                 {char === " " ? "\u00A0" : char}
                             </motion.span>

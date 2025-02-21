@@ -7,10 +7,15 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'max-md': {'max': '767px'},
+        'max-lg': {'max': '1024px'},
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      
     },
   },
   plugins: [],
