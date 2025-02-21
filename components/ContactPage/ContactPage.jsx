@@ -18,11 +18,11 @@ export default function ContactPage() {
             title: "PHONE",
             span: "519-731-5885"
         },
-        {
-            icon: <MdOutlineFax />,
-            title: "FAX",
-            span: "03 5432 1234"
-        },
+        // {
+        //     icon: <MdOutlineFax />,
+        //     title: "FAX",
+        //     span: "03 5432 1234"
+        // },
         {
             icon: <LiaEnvelopeOpenTextSolid />,
             title: "EMAIL",
@@ -30,8 +30,8 @@ export default function ContactPage() {
         }
     ]
     return (
-        <div className="flex gap-[3rem] p-[3rem] px-[8rem]">
-            <div className="w-[50%]">
+        <div className="flex gap-[3rem] p-[3rem] px-[8rem] max-md:flex-col max-md:gap-[1rem] max-md:p-2 max-md:items-center">
+            <div className="w-[50%] max-md:w-[90%]">
                 <p className="text-[2.5rem] text-[#000] font-bold"> Get in <span className="text-[#172B85]">Touch</span></p>
                 <p className="text-[#161919] font-semibold">Services from us are trusted, reliable and professional. Please fill out the form completely, and we will get back to you as soon as possible</p>
                 <form className="flex flex-col gap-5 py-5">
@@ -41,7 +41,7 @@ export default function ContactPage() {
                     <input type="text" name="comment" placeholder="Comment" className="border-2 text-[#070030] px-[1rem] py-[0.8rem] outline-non text-[1rem]" />
                     <button type="submit" className="text-[white] bg-[#224277] px-[1.2rem] py-[0.8rem] font-bold">SEND</button>
                 </form>
-                <div className="flex flex-row justify-between items-center px-0">
+                <div className="flex flex-row justify-evenly items-center px-0">
                     {
                         items.map((item, index) => (
                             <div key={index} className="flex gap-1 max-md:flex max-md:flex-row items-center max-md:self-start">
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 </div>
 
             </div>
-            <div className="w-[50%] p-5">
+            <div className="w-[50%] p-5 max-md:w-[90%]">
                 <Map />
             </div>
         </div>

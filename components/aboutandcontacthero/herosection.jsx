@@ -13,7 +13,7 @@ export default function HeroSection(props){
                 <Navbar activePath={activePath} setActivePath={setActivePath}/>
                 <div className="flex items-center justify-between gap-[4rem]  py-[8%] px-[8%]">
                                     <div className="py-10 w-[40%]">
-                                        <h1 className="text-[3.2rem] text-white font-bold w-[100%]">{props.heading}</h1>
+                                        <h1 className="text-[3.2rem] text-white font-bold w-[100%] max-sm:text-[1rem]">{props.heading}</h1>
                                         {props.subhead.split("").map((char, index) => (
                             <motion.span
                                 key={index}
@@ -24,7 +24,7 @@ export default function HeroSection(props){
                                     duration: 0.4,
                                     ease: "easeOut",
                                 }}
-                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%]"
+                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] max-sm:text-[1rem]"
                             >
                                 {char === " " ? "\u00A0" : char}
                             </motion.span>
@@ -32,7 +32,7 @@ export default function HeroSection(props){
                                     </div>
                                     {
                                         props.img1 && (
-                                            <div className='w-[50%]'>
+                                            <div className='w-[50%] max-md:w-[70%]'>
                                             <img src={props.img1} alt=''/>
                                             </div>
                                         )

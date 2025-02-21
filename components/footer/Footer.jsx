@@ -16,9 +16,9 @@ export default function Footer() {
                     disavowed.
                 </p>
             </div>
-            <div className="flex py-10 gap-[8rem] max-lg:gap-[3rem] items-start justify-evenly text-[white] pr-5 max-md:p-[1rem]">
+            <div className="flex py-10 gap-[8rem] max-lg:gap-[3rem] items-start justify-evenly text-[white] pr-5 max-md:p-[1rem] max-md:justify-between">
                     <div className="flex flex-col gap-2 max-md:w-[100%]">
-                        <h6 className="w-[100%] text-[1.4rem] font-bold">Contact Us</h6>
+                        <h6 className="w-[100%] text-[1.4rem] font-bold max-sm:text-[1rem]">Contact Us</h6>
                         {/* <p className='font-semibold'> Office Location</p>
                         <p>124, Queens walk 2nd cross Denmark</p> */}
                         <p className='font-semibold mt-2'>Phone No.</p>
@@ -27,7 +27,7 @@ export default function Footer() {
                         <p><Link href={"mailto:info@finpeso.com"}>info@finpeso.com</Link></p>
                     </div>
                     <div className="flex flex-col gap-3 max-md:w-[100%]">
-                        <h6 className="w-[100%] text-[1.4rem] font-bold mb-5">Useful Links</h6>
+                        <h6 className="w-[100%] text-[1.4rem] font-bold mb-5 max-sm:text-[1rem]">Useful Links</h6>
                         <ul className="flex flex-col gap-5">
                             <li className="flex gap-2 items-center relative pl-4">
                                 <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-2 h-2 rounded-full bg-[#fff]"></span>

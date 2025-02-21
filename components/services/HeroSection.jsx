@@ -30,9 +30,9 @@ export default function HeroSection(){
     return(
             <div className={style['backgroundImage']}>
                 <Navbar activePath={activePath } setActivePath={setActivePath}/>
-                <div className="flex items-center justify-between gap-[5rem] py-[3%] px-[8%]">
+                <div className="flex items-center justify-between gap-[5rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[25%] max-md:pt-[20%]">
                     <div className="pt-5 w-[60%]">
-                            <h1 className="text-[2.5rem] text-white font-bold w-[80%]">FINPESO - AI THAT SIMPLIFIES YOUR FINANCES</h1>
+                            <h1 className="text-[2.5rem] text-white font-bold w-[80%] max-md:text-[1.2rem]">FINPESO - AI THAT SIMPLIFIES YOUR FINANCES</h1>
                             {/* {fullText.split("").map((char, index) => (
                             <motion.span
                                 key={index}
@@ -48,10 +48,10 @@ export default function HeroSection(){
                                 {char === " " ? "\u00A0" : char}
                             </motion.span>
                         ))} */}
-                        <p  className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] animate-fade">{fullText}</p>
+                        <p  className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] animate-fade max-md:text-[1rem]">{fullText}</p>
                     </div>
-                    <div className="w-[40%] flex gap-0 items-end relative" >
-                        <img src={mobile.src} alt="Mobile" className="z-100"/>
+                    <div className="w-[40%] flex gap-0 items-end" >
+                        <img src={mobile.src} alt="Mobile" className=""/>
                         {/* <img src={mobile2.src} alt="Mobile" className="w-[30%] h-[30%] ml-[-3%] z-10"/> */}
 
                     </div>

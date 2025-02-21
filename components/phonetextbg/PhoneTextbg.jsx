@@ -11,7 +11,7 @@ export default function PhoneTextbg(props){
         })
     },[])
     return(
-        <div className="flex justify-between px-[8%] gap-[5rem] bg-[url('/assets/background/fourthbg.png')] h-[100%] bg-cover bg-center max-md:p-[8%] max-md:flex-col-reverse max-md:gap-2">
+        <div className="flex justify-between px-[8%] gap-[5rem] bg-[url('/assets/background/fourthbg.png')] h-[100%] bg-cover bg-center max-md:p-[5%] max-md:flex-col-reverse max-md:gap-2">
                 {/* {
                 props.img1?(
                     <div className='flex justify-center items-center w-[50%] py-[2rem]'  data-aos="zoom-in">

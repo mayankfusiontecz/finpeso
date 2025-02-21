@@ -39,9 +39,9 @@ export default function MotionComp() {
 
     return (
         <div className="flex flex-col items-center px-[5rem]">
-            <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold">HOW FINPESO HELPS YOU SAVE MONEY</p>
-            <div className="flex justify-between gap-[8rem] items-center">
-                <div className="max-w-lg mx-auto space-y-4 w-[100vw]">
+            <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold max-md:text-[1.5rem] max-md:text-center max-md:mb-2">HOW FINPESO HELPS YOU SAVE MONEY</p>
+            <div className="flex justify-between gap-[8rem] items-center max-md:flex-col-reverse max-md:gap-[1rem] max-md:p-2 max-md:items-center">
+                <div className="max-w-lg mx-auto space-y-4 w-[100vw] max-md:w-[90vw]">
                     {features.map((feature) => (
                         <motion.div
                             key={feature.id}
@@ -76,7 +76,7 @@ export default function MotionComp() {
                         </motion.div>
                     ))}
                 </div>
-                <div className="flex items-end justify-end w-[40%]">
+                <div className="flex items-end justify-end w-[40%] max-md:w-[80%] max-md:items-center">
                     <img src={motioncomp1.src} alt="" className="" data-aos="flip-left"/>
                 </div>
             </div>

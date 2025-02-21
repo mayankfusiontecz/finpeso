@@ -14,7 +14,7 @@ export default function Cards (props){
     return(
         <>
         <div className="flex flex-col gap-5 items-center px-[3rem] overflow-hidden max-md:text-center" data-aos="fade-up" data-aos-duration="1000">
-            <h6 className="text-[#172B85] font-bold text-[2rem] max-md:text-[1.2rem]"  data-aos="fade-up" data-aos-duration="1100">{props.heading}</h6>
+            <p className="text-[#172B85] font-bold text-[2rem] max-md:text-[1.5rem] max-md:text-center max-md:mb-2"  data-aos="fade-up" data-aos-duration="1100">{props.heading}</p>
             <div className="grid grid-cols-3 gap-[40px] items-center justify-center mt-[1rem] max-md:hidden"  data-aos="fade-right" data-aos-duration="1100">
                 {
                     props.items1.map((box, index)=>(
