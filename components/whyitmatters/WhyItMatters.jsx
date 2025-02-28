@@ -20,8 +20,8 @@ export default function WhyItMatters(props) {
     },[])
     return (
         <div className='flex flex-col justify-center items-center px-12 max-md:px-5 max-lg:px-0'>
-            <p className='text-[#172B85] text-[2.2rem] font-bold max-md:text-[1.2rem]'>{props.heading}</p>
-            <div className='flex gap-8 w-full p-8 justify-items-center max-md:hidden  max-lg:gap-2' data-aos="flip-down">
+            <p className='text-[#172B85] text-[2.2rem] font-bold max-md:text-[1.5rem]'>{props.heading}</p>
+            <div className='flex gap-8 w-full p-8 justify-items-center max-md:hidden  max-lg:gap-2 ' data-aos="flip-down">
                 {
                     props.items.map((item, index) => {
                         return (
@@ -38,7 +38,7 @@ export default function WhyItMatters(props) {
                     })
                 }
             </div>
-            <div data-aos="fade-up" data-aos-duration="1100" className="hidden w-[100%] mt-5 max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
+            <div data-aos="fade-up" data-aos-duration="1100" className="hidden w-[95%] mt-5 max-md:flex max-md:flex-col max-md:items-center max-md:justify-center">
             <Swiper
                     modules={[Autoplay,Pagination]}
                     spaceBetween={20}

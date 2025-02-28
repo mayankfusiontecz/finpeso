@@ -46,7 +46,7 @@ export default function HeroSection() {
                     </div>
                 </div>
                 <div className="w-[40%] max-md:w-[70%]">
-                    <img src={mobile.src} alt="Mobile" className="" />
+                    <img src={mobile.src} alt="expense management system" className="" />
 
                 </div>
 

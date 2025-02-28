@@ -14,7 +14,7 @@ export default function OurLeadership(){
         {
             heading:"JAZ SINGH", 
             designation:"FOUNDER",
-            content:"A globally certified financial and tech leader, Jaswinder brings a wealth of international experience and cutting-edge expertise to every project. Holding prestigious certifications from PMP, Google, IBM, CFI, and the New York Institute of Finance, he is committed to leveraging fintech innovation to transform financial management."
+            content:"A globally certified financial and tech leader, Jaswinder brings extensive fintech expertise and international experience to every project. Holding prestigious certifications from PMP, Google, IBM, CFI, and the New York Institute of Finance, he is committed to leveraging AI-powered expense management to redefine financial tracking and planning."
         },
         {
             heading:"PRAFULL CHAUHAN",
@@ -85,8 +85,8 @@ export default function OurLeadership(){
           ))}
         </div>
         </div>
-            <p className="text-[1.5rem] text-[#172B85] font-bold mt-12 max-md:text-[1.5rem] max-md:text-center max-md:mb-2">SMARTER FINANCES, BETTER DECISIONS</p>
-            <p className="text-[1.5rem] text-[#403F3F] font-bold mb-12 max-md:text-[1rem] max-md:w-[90%] max-md:text-justif">Let’s make managing your money stress-free and productive, together!</p>
+            <p className="text-[1.5rem] text-[#172B85] font-bold mt-12 max-md:text-[1.5rem] max-md:text-center max-md:mb-2 max-md:px-[1rem]">SMARTER FINANCES, BETTER DECISIONS</p>
+            <p className="text-[1.5rem] text-[#403F3F] font-bold mb-12 max-md:text-[1rem] max-md:w-[90%] max-md:text-justify max-md:px-[1rem]">Let’s make managing your money stress-free and productive, together!</p>
         </div>
     )
 }

@@ -9,11 +9,11 @@ export default function TextImage(){
                 <p className='text-[#172B85] text-[1.8rem] font-bold mb-2 max-md:text-[1.5rem] max-md:text-center max-md:w-[90%]'>OUR VISION</p>
                 <p className='text-[#676666] mb-8 max-md:text-[1rem] max-md:w-[90%] max-md:text-justify'>To make managing money simple, smart, and productive for everyone, helping them achieve their dreams effortlessly.</p>
                 <p className='text-[#172B85] text-[1.8rem] font-bold mb-2 max-md:text-[1.5rem] max-md:text-center max-md:w-[90%]'>OUR MISSION</p>
-                <p className='text-[#676666]  max-md:text-[1rem] max-md:w-[90%] max-md:text-justify'>To simplify and enhance financial management using innovative AI tools and Open Banking, empowering individuals and businesses to grow with confidence and clarity.</p>
+                <p className='text-[#676666]  max-md:text-[1rem] max-md:w-[90%] max-md:text-justify'>To simplify and enhance financial management using innovative AI tools and Open Banking, empowering individuals and businesses with the best budgeting app Canada for growth, confidence, and clarity.</p>
             </div>
             <div className='w-[40%] mr-[5rem] max-md:w-[80%] max-md:mr-0 max-md:items-center'>
 
-            <img src={thirdcomp.src} alt="" data-aos="flip-left"/>
+            <img src={thirdcomp.src} alt="travel and expense management software" data-aos="flip-left"/>
             </div>
         </div>
     )

@@ -12,15 +12,16 @@ const customIcon = new L.Icon({
 });
 
 export default function Map() {
-    const position = [40.730610, -73.935242]; // Default position (latitude, longitude)
+    const position = [56.1304, -106.3468]; // Default position (latitude, longitude)
 
     return (
-        <div className="h-[500px] w-full">
+        <div className="h-[500px] w-full max-md:h-[250px]">
             <MapContainer
                 key={position.join(',')}
                 center={position}
-                zoom={13}
+                zoom={4} 
                 scrollWheelZoom={false}
+                zoomControl={false}
                 className="h-full w-full"
             >
                 {/* Add OpenStreetMap Tile Layer */}
@@ -30,11 +31,11 @@ export default function Map() {
                 />
 
                 {/* Add a Marker */}
-                <Marker position={position} icon={customIcon}>
+                {/* <Marker position={position} icon={customIcon}>
                     <Popup>
                         A pretty popup. <br /> Easily customizable.
                     </Popup>
-                </Marker>
+                </Marker> */}
             </MapContainer>
         </div>
     );

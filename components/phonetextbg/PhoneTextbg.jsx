@@ -21,14 +21,14 @@ export default function PhoneTextbg(props){
                     :
                     ( */}
                         <div  className='flex justify-center items-end w-[30%] py-[3rem] max-md:w-[100%] max-md:items-center max-md:py-0' data-aos="zoom-in">
-                            <img src={props.image1} alt='phone 1' className=''/>
+                            <img src={props.image1} alt='best financial management app' className=''/>
                         </div>
                     {/* )
                 } */}
             <div className='flex flex-col justify-center gap-2 text-white items-start w-[60%] max-md:w-[95%] max-md:items-center' data-aos="zoom-in-up">
-                <p className='font-bold text-[2rem] max-md:text-[1.2rem] max-md:text-center'>{props.heading}</p>
-                {props.content1 && (<p className='font-bold text-[1.2rem] max-md:text-[1rem] max-md:text-center'>{props.content1}</p>)}
-                <p className='text-[1rem]  max-md:text-[0.8rem] max-md:text-center'>{props.content2}</p>
+                <p className='font-bold text-[2rem] max-md:text-[1.2rem] max-md:text-center '>{props.heading}</p>
+                {props.content1 && (<p className='font-bold text-[1.2rem] max-md:text-[1rem] max-md:text-center text-justify'>{props.content1}</p>)}
+                <p className='text-[1rem]  max-md:text-[0.8rem] max-md:text-center text-justify'>{props.content2}</p>
             </div>
         </div>
     )

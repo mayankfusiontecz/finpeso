@@ -18,13 +18,13 @@ export const ServicesContent = {
                 img: sixthcomp1.src,
                 img1: sixthcomp2.src,
                 heading: "Easy Setup:",
-                content: "Get started within minutes and have all your finances in one place.",
+                content: "Get started within minutes and have all your finances in one place with the best money tracking app.",
             },
             {
                 img: sixthcomp1.src,
                 img1: sixthcomp2.src,
                 heading: "Clear Insights: ",
-                content: "Understand your financial situation at a glance with detailed reports and AI-powered recommendations.",
+                content: "Understand your financial situation at a glance with AI-powered recommendations and detailed reports.",
             },
             {
                 img: sixthcomp1.src,
@@ -36,7 +36,7 @@ export const ServicesContent = {
                 img: sixthcomp1.src,
                 img1: sixthcomp2.src,
                 heading: "Smart Financial Decisions: ",
-                content: "Finpeso provides logical, fact-based insights to help you make the best choices for your future.",
+                content: "Finpeso provides fact-based insights to help you make the best choices for your future.",
             },
         ]
     },
@@ -44,7 +44,7 @@ export const ServicesContent = {
         img1:phonetextbg1.src,
         img2:phonetextbg2.src,
         heading: "WHAT IS FINPESO?",
-        content2: "Finpeso is your all-in-one financial management tool designed to simplify how you track, budget, and save. From setting goals to managing expenses, Finpeso makes it easy to take control of your money and achieve your financial dreams. With real-time updates and actionable insights, you’ll always know where you stand and how to improve."
+        content2: "Finpeso is your all-in-one finance management app, designed to simplify how you track expenses, set budgets, and save money. Whether you're in Guelph, Toronto, or anywhere in Canada, Finpeso makes it easy to take control of your money and achieve your financial goals. With real-time updates and AI-powered expense management, you’ll always know where you stand and how to improve."
     },
     imageCard: {
         heading: "KEY FEATURES",
@@ -53,11 +53,11 @@ export const ServicesContent = {
             li:[
                 {
                     span:"Unified Tracking:",
-                    content: "View all your expenses and income in one place for better visibility.",
+                    content: "View all your expenses and income in one place with our expense management system.",
                 },
                 {
                     span:"Detailed Spending Analysis: ",
-                    content: " Understand where your money is going and adjust your habits to save more."
+                    content: "– Understand where your money is going and adjust your habits to save more with the best spending tracker app."
                 }
             ]
         },
@@ -66,7 +66,7 @@ export const ServicesContent = {
             li: [
                 {
                     span: "Understand Spending Habits:  ",
-                    content: " Finpeso’s AI analyzes your transactions to show exactly where your money goes."
+                    content: "Finpeso’s AI-powered expense management analyzes your transactions to show exactly where your money goes."
                 },
                 {
                     span: "Tailored Savings Tips:  ",
@@ -78,7 +78,7 @@ export const ServicesContent = {
                 },
                 {
                     span: "Visualized Reports: ",
-                    content: "Access charts and summaries for a clear breakdown of income, expenses, and savings trends."
+                    content: "Access budget calendar app tools with charts and summaries for a clear breakdown of income, expenses, and savings trends."
                 },
             ]
         },
@@ -87,7 +87,7 @@ export const ServicesContent = {
             li:[
                 {
                 span:"Set Financial Goals: ",
-                content: "Whether it’s a vacation, a car, or an emergency fund, Finpeso helps you plan and save effectively.",
+                content: "Whether it’s a vacation, a car, or an emergency fund, Finpeso helps you plan and save with the best budget planner.",
                 },
                 {
                     span:"Progress Tracking: ",
@@ -100,11 +100,11 @@ export const ServicesContent = {
             li:[
                 {
                 span:"Custom Budgets: ",
-                content: "Tailor monthly or yearly budgets to fit your unique lifestyle and needs.",
+                content: "Tailor monthly or yearly budgets with the best budget planner app to fit your lifestyle and needs.",
                 },
                 {
                 span:"Real-Time Updates: ",
-                content: "Stay on top of your budget with live updates on spending and remaining funds.",
+                content: "Stay on top of your spending with live tracking through our monthly budget app.",
                 }
             ]
         },
@@ -113,11 +113,11 @@ export const ServicesContent = {
             li:[
                 {
                 span:"Stay Organized:  ",
-                content: "Manage credit usage, track repayment schedules, and improve your credit score effortlessly.",
+                content: "Manage credit usage, track repayment schedules, and improve your credit score with the best budgeting app Canada.",
                 },
                 {
                 span:"Avoid Penalties: ",
-                content: "Receive timely notifications to ensure you never miss a payment.",
+                content: "Get timely notifications to ensure you never miss a payment.",
                 }
             ]
         },
@@ -126,11 +126,11 @@ export const ServicesContent = {
             li:[
                 {
                 span:"One-Stop Access:  ",
-                content: "Connect all your bank accounts to track transactions and balances in one place.",
+                content: "Connect all your bank accounts securely with our personal finance tracker to track transactions and balances.",
                 },
                 {
                 span:"Exclusive Perks: ",
-                content: "Earn rewards and bonuses for meeting savings goals and making smart financial decisions.",
+                content: "Earn rewards and bonuses for reaching  savings goals and making smart financial decisions.",
                 }
             ]
         }
@@ -177,14 +177,17 @@ export const ServicesContent = {
                 },
                 {
                     img:card3.src,
-                    content:"Real-time notifications have helped 90% of users avoid late fees and penalties"
+                    content:"Real-time notifications have help 90% of users avoid late fees and penalties"
                 },
             ],
         },
         imageText1:{
             img:imagetext.src,
             heading:"Get Started with Finpeso Today",
-            content1:"With Finpeso, managing your finances is no longer a chore. In just minutes, you can set up your account, connect your bank, and start seeing the benefits of clear, actionable financial insights. Whether it’s tracking expenses, setting budgets, or reaching savings goals, Finpeso has you covered.",
-            content:"Start using Finpeso today and take the first step toward a smarter, more secure financial future."
+            content1:"With Finpeso, managing your finances is no longer a chore. Whether you're in Toronto, Guelph, or anywhere in Canada, set up your account, connect your bank, and experience the benefits of clear, actionable financial insights.",
+            li1:"Track expenses effortlessly with the best personal finance app.",
+            li2:"Plan smarter with our travel and expense management software.",
+            li3:"Optimize your budget with the best budget planner app.",
+            content:"Start using Finpeso today and take the first step toward a smarter, more secure financial future! "
         }
 }

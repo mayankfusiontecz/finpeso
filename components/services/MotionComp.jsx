@@ -12,7 +12,7 @@ const features = [
         id: 1,
         icon: <SlNote />,
         title: "Identify Spending Patterns",
-        description: "Spot unnecessary expenses and redirect that money toward savings."
+        description: "Spot unnecessary expenses and redirect that money toward savings with the best budget app for couples."
     },
     {
         id: 2,
@@ -30,7 +30,7 @@ const features = [
         id: 4,
         icon: <SiHomeassistantcommunitystore />,
         title: "Goal-Focused Saving",
-        description: "Break down your big financial goals into achievable milestones and track your progress easily.",
+        description: "Break down your big financial goals into achievable milestones and track progress with the expense tracking app Canada.",
     },
 ];
 
@@ -77,7 +77,7 @@ export default function MotionComp() {
                     ))}
                 </div>
                 <div className="flex items-end justify-end w-[40%] max-md:w-[80%] max-md:items-center">
-                    <img src={motioncomp1.src} alt="" className="" data-aos="flip-left"/>
+                    <img src={motioncomp1.src} alt="best budget planner" className="" data-aos="flip-left"/>
                 </div>
             </div>
         </div>

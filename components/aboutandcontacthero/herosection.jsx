@@ -13,7 +13,7 @@ export default function HeroSection(props){
                 <Navbar activePath={activePath} setActivePath={setActivePath}/>
                 <div className="flex items-center justify-between gap-[4rem]  py-[8%] px-[8%]">
                                     <div className="py-10 w-[40%]">
-                                        <h1 className="text-[3.2rem] text-white font-bold w-[100%] max-md:text-[1.5rem]">{props.heading}</h1>
+                                        <h1 className="text-[2.5rem] text-white font-bold w-[100%] max-md:text-[1.5rem]">{props.heading}</h1>
                                         {props.subhead.split("").map((char, index) => (
                             <motion.span
                                 key={index}
@@ -33,7 +33,7 @@ export default function HeroSection(props){
                                     {
                                         props.img1 && (
                                             <div className='w-[50%] max-md:w-[60%]'>
-                                            <img src={props.img1} alt=''/>
+                                            <img src={props.img1} alt='budget calendar app'/>
                                             </div>
                                         )
                                     }

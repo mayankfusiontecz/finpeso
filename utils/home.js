@@ -19,14 +19,14 @@ export const homeContent={
     imageText:{
         img:secondcomp.src,
         heading:"TAKE CONTROL OF YOUR FINANCES WITH EASE",
-        content:"Finpeso is the ultimate platform designed to simplify your financial journey. Whether you’re tracking your expenses, managing your credit, or planning for future goals, Finpeso serves as your one-stop solution for smarter financial decisions."
+        content:"Finpeso is the best financial management app in Guelph, Canada, designed to simplify your financial journey. Whether you’re tracking your expenses, managing your credit, or planning for future goals, Finpeso serves as your one-stop finance management app for smarter financial decisions."
     },
     imageCard:{
         heading:"WHAT MAKES FINPESO UNIQUE?",
         card1:{
             heading:"Comprehensive Transaction Management",
-            li1:"Track all your expenses and income in one place.",
-            li2:"Get a detailed view of your spending history to identify patterns and make informed decisions."
+            li1:"Track all your expenses and income in one place with our expense management system.",
+            li2:"Get a detailed view of your spending history to identify patterns and make informed decisions using our best spending tracker app."
         },
         card2:{
             heading:"AI-Powered Insights",
@@ -37,7 +37,7 @@ export const homeContent={
                 },
                 {
                     span:"Personalized Savings Tips: ",
-                    content:"Receive tailored recommendations to optimize your budget and save more each month."
+                    content:"Receive tailored recommendations to optimize your budget and save more each month with our best money tracking app."
                 },
                 {
                     span:"Smart Alerts: ",
@@ -45,31 +45,31 @@ export const homeContent={
                 },
                 {
                     span:"Visualized Financial Reports: ",
-                    content:"Easily access charts and summaries for your income, expenses, and savings trends to make better decisions."
+                    content:"Easily access charts and summaries for your income, expenses, and savings trends to make better decisions using the best budget app for couples."
                 },
             ]
         },
         card3:{
             heading:"Goal-Oriented Savings",
             li1:"Define your financial goals – whether it’s saving for a vacation, buying a car, or building an emergency fund.",
-            li2:"Finpeso helps you stay on track with actionable insights and reminders."
+            li2:"Finpeso helps you stay on track with actionable insights and reminders, making it the best budget planner for personal finance management."
         },
         card4:{
                 heading:"Bank Connectivity & Rewards",
-                li1:"Connect seamlessly with your bank accounts to view all transactions in one place.",
-                li2:"Earn exclusive rewards and bonuses for reaching your savings goals or making smart financial choices.",
+                li1:"Connect seamlessly with your bank accounts to view all transactions in one place using our personal finance tracker.",
+                li2:"Earn exclusive rewards and bonuses for reaching your savings goals or making smart financial choices with our best budgeting app Canada.",
             },
         card5:{
                 img:thirdicon3.src,
                 heading:"Smarter Credit Management",
                 li1:"Stay on top of your credit usage and repayment schedules.",
-                li2:"Get notified about upcoming due dates to avoid late fees and improve your credit health.",
+                li2:"Get notified about upcoming due dates to avoid late fees and improve your credit health using our AI-powered expense management system.",
                 bottomimg:thirdcomp4.src
             },
         card6:{
                 heading:"Personalized Budgeting",
-                li1:"Set up monthly or yearly budgets tailored to your lifestyle.",
-                li2:"Receive real-time updates on how much you’ve spent and what’s left to spend.",
+                li1:"Set up monthly or yearly budgets tailored to your lifestyle with the best budget planner app.",
+                li2:"Receive real-time updates on how much you’ve spent and what’s left to spend with our monthly budget app.",
                 img:thirdcomp5.src
             }
     },
@@ -78,17 +78,17 @@ export const homeContent={
         img2:phonetextbg2.src,
         heading:"VISUALIZE YOUR FINANCES WITH CHARTS AND GRAPHS",
         content1:"Simplify Your Financial Understanding",
-        content2:"Finpeso brings your finances to life with easy-to-read charts and graphs. No more scrolling through endless lists of transactions — now you can see everything at a glance."
+        content2:"Finpeso brings your finances to life with easy-to-read charts and graphs. No more scrolling through endless lists of transactions—now you can see everything at a glance with the best budget calendar app."
     },
     slides:[
         {
             heading:"Spending Trends",
             li1:"View monthly or yearly spending trends categorized by essentials, leisure, bills, and more.",
-            li2:"Identify where you’re overspending and adjust with ease."
+            li2:"Identify where you’re overspending and adjust with ease using our expense tracking app Canada."
         },
         {
             heading:"Income vs. Expenses",
-            li1:"Compare your income to your expenses through a simple bar or pie chart.",
+            li1:"Compare your income to your expenses through a simple bar or pie chart with the best budgeting app Canada.",
             li2:"Instantly see if you’re saving enough or need to adjust your budget."
         },
         {
@@ -99,7 +99,7 @@ export const homeContent={
         {
             heading:"Credit Utilization",
             li1:"See how much credit you’ve used versus your available credit limit.",
-            li2:"Stay informed and maintain a healthy credit score with visual data."
+            li2:"Stay informed and maintain a healthy credit score with visual data from our personal finance app."
         }
     ],
     whyitmatters :{
@@ -121,7 +121,7 @@ export const homeContent={
             img:sixthcomp1.src,
             img1:sixthcomp2.src,
             heading:"Better Decision-Making: ",
-            content:"With clear data visuals, you’re always informed and ready to take action.",
+            content:"With clear data visuals, you’re always informed and ready to take action with our travel and expense management software.",
         },
     ]
 },
@@ -158,7 +158,7 @@ export const homeContent={
             {
                 img:card5.src,
                 title:"Real-Time Tracking",
-                content:"Always know where your money is going and how to optimize it."
+                content:"Always know where your money is going and how to optimize it with the best personal finance tracker."
             },
         ]
     },
@@ -167,9 +167,9 @@ export const homeContent={
         heading:"GET STARTED WITH FINPESO TODAY!",
         li1:"Connect your bank accounts securely.",
         li2:"Set your financial goals and budget.",
-        li3:"Track your transactions and enjoy rewards for your achievements.",
+        li3:"Track your transactions with the best budget planner app and enjoy rewards for your achievements.",
         li4:"Harness the power of AI to gain insights into your financial habits.",
         li5:"Visualize your financial health with charts and graphs.",
-        content:"Take the first step toward a financially secure future. Sign up now and start managing your money like a pro!"
+        content:"Take the first step toward a financially secure future. Sign up now and start managing your money like a pro with Finpeso, the best financial management app!"
     },
 }

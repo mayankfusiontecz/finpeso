@@ -49,6 +49,9 @@ export default function Services() {
                 heading={ServicesContent.imageText1.heading}
                 content1={ServicesContent.imageText1.content1}
                 img={ServicesContent.imageText1.img}
+                bottomli1={ServicesContent.imageText1.li1}
+                bottomli2={ServicesContent.imageText1.li2}
+                bottomli3={ServicesContent.imageText1.li3}
                 content={ServicesContent.imageText1.content}
                 />
                 <Footer/>

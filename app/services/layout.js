@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: " Finpeso – Best Finance Management App & Expense Tracker",
-  description: "Finpeso is the best financial management app for AI-powered expense tracking, budgeting, and savings. Manage your money with the top personal finance tracker in Canada.",
+  title: "Best Financial Management App | AI-Powered Expense Tracker Canada",
+  description: "Finance management app for AI-powered expense tracking, budgeting, and savings. Best money tracking app, personal finance tracker, and budget planner app in Canada.",
 };
 
 export default function RootLayout({ children }) {

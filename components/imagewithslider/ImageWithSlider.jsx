@@ -73,7 +73,7 @@ export default function ImageWithSlider(props) {
         </div>
 
         {/* Right section with image */}
-        <img src={fifthcomp1.src} alt="fifthcomp" className="w-[40%] h-[40%] max-md:w-[80%]"  data-aos="zoom-out-up"/>
+        <img src={fifthcomp1.src} alt="expense tracking app canada" className="w-[40%] h-[40%] max-md:w-[80%]"  data-aos="zoom-out-up"/>
       </div>
     </div>
   );
