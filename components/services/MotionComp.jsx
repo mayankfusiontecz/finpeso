@@ -37,6 +37,16 @@ const features = [
 export default function MotionComp() {
     const [hoveredId, setHoveredId] = useState(1);
 
+    const handleTouchStart = (id) => {
+        setHoveredId(id);
+    };
+
+    const handleMouseEnter = (id) => {
+        if (typeof window !== "undefined" && window.innerWidth > 768) {
+            setHoveredId(id);
+        }
+    };
+
     return (
         <div className="flex flex-col items-center px-[5rem] max-lg:px-[2rem]">
             <p className="text-[#172B85] mb-10 text-[2.2rem] font-bold max-md:text-[1.5rem] max-md:text-center max-md:mb-2">HOW FINPESO HELPS YOU SAVE MONEY</p>
@@ -45,8 +55,8 @@ export default function MotionComp() {
                     {features.map((feature) => (
                         <motion.div
                             key={feature.id}
-                            onMouseEnter={() => setHoveredId(feature.id)}
-                            // onMouseLeave={() => setHoveredId(null)}
+                            onMouseEnter={() => handleMouseEnter(feature.id)}
+                            onTouchStart={() => handleTouchStart(feature.id)}
                             className={`bg-white rounded-md shadow-md border cursor-pointer overflow-hidden transition-all`}
                             animate={{ height: hoveredId === feature.id ? "auto" : "80px" }}
                             style={{
