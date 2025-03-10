@@ -13,7 +13,7 @@ export default function Aboutus(){
                 img={aboutus.src}
                 img1={herocomp.src}
                 heading={"Top Budgeting App in Canada, Smartest Money Companion"}
-                subhead={"Spend Wisely. Save Effortlessly. Live Freely."}
+                subhead={"Spend Wisely. \nSave Effortlessly. \nLive Freely."}
                 path="/aboutus"
             />
             <ImageText/>

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection(){
     const [activePath , setActivePath] = useState("/services");
-    const fullText="Track Smart. Decide Smarter. Live Stress-Free."
+    const fullText="Track Smart. \nDecide Smarter. \nLive Stress-Free."
 
     const [displayText, setDisplayText] = useState("");
 
@@ -33,7 +33,7 @@ export default function HeroSection(){
                 <div className="flex items-center justify-between gap-[2rem] py-[3%] px-[8%] max-md:gap-1 max-md:px-[3%] max-md:pb-[25%] max-md:pt-[20%] max-lg:pt-[15%] max-lg:pb-[20%]">
                     <div className="pt-5 w-[60%]">
                             <h1 className="text-[2.5rem] text-white font-bold w-[95%] max-md:text-[1.2rem] max-lg:text-[1.5rem] uppercase">FINPESO – AI That Thinks Finance for You</h1>
-                            {/* {fullText.split("").map((char, index) => (
+                            {fullText.split("").map((char, index) => (
                             <motion.span
                                 key={index}
                                 initial={{ opacity: 0, y: 20 }}
@@ -43,12 +43,12 @@ export default function HeroSection(){
                                     duration: 0.4,
                                     ease: "easeOut",
                                 }}
-                                 className="text-[2.8rem] text-[#1EC9E4] font-bold w-[80%]"
-                            >
+                                className="text-[2.5rem] text-[#1EC9E4] font-bold max-md:text-[1rem] max-lg:text-[1.2rem] uppercase"
+                                >
                                 {char === " " ? "\u00A0" : char}
                             </motion.span>
-                        ))} */}
-                        <p  className="text-[2.5rem] text-[#1EC9E4] font-bold w-[90%] animate-fade max-md:text-[1rem] max-lg:text-[1.2rem]">{fullText}</p>
+                        ))}
+                        {/* <p  className="text-[2.5rem] text-[#1EC9E4] font-bold w-[90%] animate-fade max-md:text-[1rem] max-lg:text-[1.2rem]">{fullText}</p> */}
                     </div>
                     <div className="w-[40%] flex gap-0 items-end" >
                         <img src={mobile.src} alt="best budget planner" className=""/>
