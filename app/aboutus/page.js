@@ -12,8 +12,8 @@ export default function Aboutus(){
             <HeroSection
                 img={aboutus.src}
                 img1={herocomp.src}
-                heading={"MAKING MONEY MANAGEMENT SMART & SIMPLE"}
-                subhead={""}
+                heading={"Top Budgeting App in Canada, Smartest Money Companion"}
+                subhead={"Spend Wisely. Save Effortlessly. Live Freely."}
                 path="/aboutus"
             />
             <ImageText/>

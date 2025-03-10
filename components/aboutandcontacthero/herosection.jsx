@@ -5,16 +5,16 @@ import style from './herosection.module.css'
 import { motion } from "framer-motion";
 
 export default function HeroSection(props){
-    const [activePath , setActivePath] = useState(props.path);;
+    const [activePath , setActivePath] = useState(props.path);
     
     return( 
         <>
             <div className={style['backgroundImage']}  style={{ backgroundImage: `url(${props.img})` }}>
                 <Navbar activePath={activePath} setActivePath={setActivePath}/>
-                <div className="flex items-center justify-between gap-[4rem]  py-[8%] px-[8%]">
+                <div className="flex items-center justify-between gap-[4rem]  py-[8%] px-[8%] max-md:gap-[1rem] max-md:px-[8%]">
                                     <div className="py-10 w-[40%]">
-                                        <h1 className="text-[2.5rem] text-white font-bold w-[100%] max-md:text-[1.5rem]">{props.heading}</h1>
-                                        {props.subhead.split("").map((char, index) => (
+                                        <h1 className="text-[2.5rem] text-white font-bold w-[100%] max-md:text-[1.2rem] max-lg:text-[1.5rem] uppercase">{props.heading}</h1>
+                                        {/* {props.subhead.split("").map((char, index) => (
                             <motion.span
                                 key={index}
                                 initial={{ opacity: 0, y: 20 }}
@@ -24,11 +24,13 @@ export default function HeroSection(props){
                                     duration: 0.4,
                                     ease: "easeOut",
                                 }}
-                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] max-md:text-[1.5rem]"
+                                 className="text-[2.5rem] text-[#1EC9E4] font-bold w-[80%] max-md:text-[1rem] max-lg:text-[1.2rem] uppercase"
                             >
                                 {char === " " ? "\u00A0" : char}
                             </motion.span>
-                        ))}
+                        ))} */}
+                        
+                        <p  className="text-[2.5rem] text-[#1EC9E4] font-bold w-[90%] animate-fade max-md:text-[1rem] max-lg:text-[1.2rem]">{props.subhead}</p>
                                     </div>
                                     {
                                         props.img1 && (
