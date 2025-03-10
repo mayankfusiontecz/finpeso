@@ -64,7 +64,7 @@ export default function ImageCard(props) {
                         <li>{props.card4.span2 && (<span className='font-semibold'>{props.card4.span2}</span>)}{props.card4.li2}</li>
                     </ul>
                 </div>
-                <div className='w-[40%] bg-[#F2FEFE] rounded-xl p-8 relative max-md:w-[95%] max-md:px-[1rem] max-md:h-[70vw]' data-aos="flip-left">
+                <div className='w-[40%] bg-[#F2FEFE] rounded-xl p-8 relative max-md:w-[95%] max-md:px-[1rem] max-md:h-[80vw]' data-aos="flip-left">
                     <img src={props.card5.img} alt='personal finance app'  className="max-md:hidden"/>
                     <p className='text-[2rem] text-black font-bold mt-8 mb-4  max-md:text-[1.2rem]'>{props.card5.heading}</p>
                     <ul className='absolute w-[90%] text-[#403F3F] text-[1.2rem] list-disc pl-5 max-md:text-[1rem] z-20'>
