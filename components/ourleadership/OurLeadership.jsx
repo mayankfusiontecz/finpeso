@@ -30,7 +30,7 @@ export default function OurLeadership(){
                     items.map((item,index)=>{
                         return(
                             <div key={index} 
-                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300
+                            className="relative p-8 bg-white rounded-lg shadow-lg transition-all ease-in-out duration-300 w-[30vw]
                             max-lg:w-[40vw]
                         hover:bg-[#E6F0FD] hover:before:absolute hover:before:right-0 hover:before:bottom-0 hover:before:w-[10px] hover:before:h-full hover:before:bg-[#172B85] hover:before:rounded-br-2xl hover:before:rounded-tr-lg
                         hover:after:absolute hover:after:right-0 hover:after:bottom-0 hover:after:h-[10px] hover:after:w-full hover:after:bg-[#172B85] hover:after:rounded-br-2xl hover:after:rounded-bl-lg"
