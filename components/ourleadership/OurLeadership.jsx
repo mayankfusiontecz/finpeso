@@ -19,7 +19,7 @@ export default function OurLeadership(){
         {
             heading:"PRAFULL CHAUHAN",
             designation:"CO-FOUNDER",
-            content:"With 5 years of experience in full-stack development, project management, and team leadership, Prafull is the problem solver behind Finpeso’s seamless technology. He specializes in stack development, handling project issues, and managing technical teams, ensuring that our platform delivers efficiency, security, and smart financial insights."
+            content:"With deep expertise in software architecture, cloud infrastructure, and scalable system design, Prafull drives the technological vision behind Finpeso. As Co-founder and CTO, he spearheads innovation, optimizes system performance, and ensures enterprise-grade security while leading high-performing engineering teams. His proficiency in backend architectures, microservices, and modern frontend frameworks enables Finpeso to deliver seamless, secure, and intelligent financial solutions."
         }
     ]
     return(
